@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом мечты — выбор</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-shell">
+        <div class="phone">
+            <header class="app-top">
+                <div class="brand">
+                    <span class="brand-dot"></span>
+                    <span class="brand-title">Abundance Check</span>
+                </div>
+                <div class="progress-wrap" aria-hidden="true">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </header>
+
+            <main class="app-main">
+                <section class="screen screen-question is-active" id="screenQuestion" aria-live="polite">
+                    <div class="screen-header">
+                        <h1 id="screenTitle"></h1>
+                        <p id="screenSubtitle"></p>
+                    </div>
+
+                    <div class="house-grid" id="optionsGrid" role="list"></div>
+
+                    <button class="primary-cta" id="startBtn" type="button">Начать</button>
+                </section>
+
+                <section class="screen screen-result" id="screenResult" aria-live="polite">
+                    <div class="result-card">
+                        <img id="resultImage" src="" alt="">
+                        <div class="result-body">
+                            <h2 id="resultTitle"></h2>
+                            <p id="resultText"></p>
+                        </div>
+                        <button class="primary-cta is-visible" id="nextBtn" type="button">Далее</button>
+                        <a class="invite-link" id="inviteLink" href="https://t.me/share/url?url=https://abundance-check.example" target="_blank" rel="noopener">Пригласить друга</a>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
