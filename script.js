@@ -2,30 +2,104 @@ const screens = [
     {
         id: 1,
         type: "intro",
-        title: "Хочешь другие результаты в жизни?",
+        title: "Представь жизнь, где становится легче дышать",
         subtitle:
-            "Перед тобой короткий чек-ап. Здесь нет правильных или неправильных ответов. Просто выбирай то, что откликается."
+            "Это короткий чек-ап покажет, куда ты движешься  \n И как выбирать свой настоящий путь\n\n Здесь нет правильных или неправильных ответов.\n\nВыбирай то что тебе ближе. "
     },
     {
         id: 2,
         type: "question",
-        title: "Какой путь тебя сейчас притягивает?",
-        subtitle: "Не выбирай «как правильно». Выбирай — что откликается.",
+        title: "Откуда ты хочешь, чтобы приходили деньги?",
+        subtitle: "Не «правильно», а по ощущениям.\nМожно менять со временем.",
         options: [
-            "Высокая должность и статус",
-            "Любимое дело, работа на себя",
-            "Известность, влияние, публичность",
-            "Свой бизнес, создание системы",
-            "Смешанный путь",
-            "Пока не знаю"
+            "Карьерный рост в компании",
+            "Стабильная работа + комфорт",
+            "Любимое дело / работа на себя",
+            "Публичность / известность",
+            "Свой бизнес / проекты",
+            "Свой путь (другое)"
+        ],
+        images: [
+            "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=700&q=70",
+            "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=70",
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=700&q=70",
+            "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=70",
+            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=700&q=70",
+            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=70"
+        ],
+        resultImages: [
+            "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=70",
+            "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=70",
+            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=70",
+            "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=70",
+            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=70",
+            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=70"
         ],
         feedbacks: [
-            "Этот выбор часто делают люди, которым важно чувствовать, что их усилия имеют значение и не пропадают зря.",
-            "Этот выбор часто делают люди, которым важно чувствовать, что их усилия имеют значение и не пропадают зря.",
-            "Этот выбор часто делают люди, которым важно чувствовать, что их усилия имеют значение и не пропадают зря.",
-            "Этот выбор часто делают люди, которым важно чувствовать, что их усилия имеют значение и не пропадают зря.",
-            "Ты выбираешь гибкость — это про поиск своего формата, без лишнего давления.",
-            "Нормально не знать сейчас. Это тоже точка старта и честный выбор."
+            "Этот выбор делают люди,\nкоторым важно чувствовать свой вес.\n\nТы хочешь, чтобы к твоему мнению\nприслушивались,\nа решения имели последствия.\n\nДля тебя деньги —\nэто не только доход,\nно и позиция.",
+            "Этот выбор делают люди,\nкоторым важно чувствовать опору.\n\nТы ценишь ясные правила,\nпонятный ритм\nи ощущение «я справляюсь».\n\nЭто не про застой,\nа про умную устойчивость.",
+            "Этот выбор делают люди,\nкоторые не хотят отделять\nжизнь от работы.\n\nТебе важно заниматься тем,\nчто отзывается внутри,\nи жить по своему ритму.\n\nСвобода для тебя —\nэто ресурс, а не хаос.",
+            "Этот выбор делают люди,\nкоторым важно делиться собой.\n\nУ тебя есть мысли, образы\nили опыт,\nкоторые хочется показать миру.\n\nЭто не про эго,\nа про резонанс.",
+            "Этот выбор делают люди,\nкоторые думают шире одного шага.\n\nТы хочешь создавать системы,\nкоторые работают без постоянного участия.\n\nДля тебя важно видеть,\nкак идеи превращаются в активы.",
+            "Этот выбор делают люди,\nкоторым тесно в готовых сценариях.\n\nТы чувствуешь,\nчто твой путь может быть другим —\nи это нормально.\n\nИногда именно так\nначинается настоящее развитие."
+        ],
+        miniChoices: [
+            {
+                question: "Что для тебя сейчас важнее?",
+                options: [
+                    "Новая работа",
+                    "Возможность повысить должность",
+                    "Сначала повысить опыт и навыки",
+                    "Закрыть текущие задачи",
+                    "Другой вариант"
+                ],
+                hint: "Как получить новые возможности ➡️"
+            },
+            {
+                question: "Что сейчас важнее?",
+                options: [
+                    "Больше дохода без роста нагрузки",
+                    "Больше интереса в работе",
+                    "Сохранить баланс и энергию"
+                ],
+                hint: "Иногда устойчивость можно усилить\nне увеличивая часы работы ➡️"
+            },
+            {
+                question: "Сейчас ты ближе к…",
+                options: [
+                    "Идее, но без системы",
+                    "Первым стабильным доходам",
+                    "Потоку клиентов на месяцы вперёд"
+                ],
+                hint: "Системы могут взять на себя рутину,\nоставив тебе творчество ➡️"
+            },
+            {
+                question: "Что тебе ближе?",
+                options: [
+                    "Экспертность и польза",
+                    "Личность и стиль",
+                    "Идеи и смыслы"
+                ],
+                hint: "Рост не случайность, а внимание ➡️"
+            },
+            {
+                question: "На каком этапе ты сейчас?",
+                options: [
+                    "Идея или поиск ниши",
+                    "Первые продажи",
+                    "Масштабирование и команда"
+                ],
+                hint: "Какие действия\nускоряют рост в разы? ➡️"
+            },
+            {
+                question: "Что сейчас ближе?",
+                options: [
+                    "Поиск своего формата",
+                    "Переосмысление и пауза",
+                    "Новый этап и перезапуск"
+                ],
+                hint: "Гибкие системы умеют подстраиваться под уникальные траектории →"
+            }
         ]
     },
     {
@@ -202,6 +276,11 @@ const nextBtn = document.getElementById("nextBtn");
 const resultImage = document.getElementById("resultImage");
 const resultTitle = document.getElementById("resultTitle");
 const resultText = document.getElementById("resultText");
+const aiBadge = document.getElementById("aiBadge");
+const miniChoice = document.getElementById("miniChoice");
+const miniTitle = document.getElementById("miniTitle");
+const miniOptions = document.getElementById("miniOptions");
+const miniHint = document.getElementById("miniHint");
 const inviteLink = document.getElementById("inviteLink");
 
 let currentIndex = 0;
@@ -224,6 +303,7 @@ function renderQuestionScreen() {
 
     optionsGrid.innerHTML = "";
     screenQuestion.classList.add("is-active");
+    screenQuestion.classList.toggle("is-intro", screen.type === "intro");
     screenResult.classList.remove("is-active");
 
     if (screen.type === "intro") {
@@ -245,8 +325,11 @@ function renderQuestionScreen() {
         card.className = "house-card";
         card.type = "button";
         card.dataset.option = optionIndex + 1;
+        const cardImage =
+            (screen.images && screen.images[optionIndex]) ||
+            `https://picsum.photos/seed/${imageSeeds[optionIndex]}/600/600.jpg`;
         card.innerHTML = `
-            <img src="https://picsum.photos/seed/${imageSeeds[optionIndex]}/700/700.jpg" alt="${label}">
+            <img src="${cardImage}" alt="${label}" loading="lazy" decoding="async">
             <div class="house-info">
                 <span class="house-title">${label}</span>
             </div>
@@ -272,11 +355,39 @@ function showResult(screen, optionIndex) {
         screen.feedback ||
         "";
 
-    resultImage.src = `https://picsum.photos/seed/${imageSeeds[optionIndex]}/800/1000.jpg`;
+    resultImage.src =
+        (screen.resultImages && screen.resultImages[optionIndex]) ||
+        `https://picsum.photos/seed/${imageSeeds[optionIndex]}/900/1200.jpg`;
     resultImage.alt = title;
+    resultImage.loading = "lazy";
+    resultImage.decoding = "async";
     resultTitle.textContent = title;
     resultText.textContent = feedback;
+    aiBadge.textContent = "Отклик AI";
     inviteLink.classList.remove("is-visible");
+
+    miniOptions.innerHTML = "";
+    if (screen.miniChoices && screen.miniChoices[optionIndex]) {
+        const choice = screen.miniChoices[optionIndex];
+        miniTitle.textContent = choice.question;
+        miniHint.textContent = choice.hint || "";
+        choice.options.forEach((optionText) => {
+            const optionBtn = document.createElement("button");
+            optionBtn.type = "button";
+            optionBtn.className = "mini-option";
+            optionBtn.textContent = optionText;
+            optionBtn.addEventListener("click", () => {
+                miniOptions.querySelectorAll(".mini-option").forEach((btn) => {
+                    btn.classList.remove("is-selected");
+                });
+                optionBtn.classList.add("is-selected");
+            });
+            miniOptions.appendChild(optionBtn);
+        });
+        miniChoice.classList.add("is-visible");
+    } else {
+        miniChoice.classList.remove("is-visible");
+    }
 
     screenQuestion.classList.remove("is-active");
     screenResult.classList.add("is-active");
@@ -285,6 +396,10 @@ function showResult(screen, optionIndex) {
 function showFinal() {
     resultImage.src = "https://picsum.photos/seed/abundance-final/900/1200.jpg";
     resultImage.alt = "Финальный экран";
+    resultImage.loading = "lazy";
+    resultImage.decoding = "async";
+    aiBadge.textContent = "Итог";
+    miniChoice.classList.remove("is-visible");
     resultTitle.textContent = screens[currentIndex].title;
     resultText.textContent = screens[currentIndex].subtitle;
     nextBtn.textContent = "Ок";
