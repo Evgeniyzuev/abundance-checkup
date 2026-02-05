@@ -268,24 +268,18 @@ body {
 
 .screen-result.is-active {
     display: grid;
-    place-items: center;
-}
-
-.result-card {
-    width: 100%;
-    background: var(--panel);
-    border-radius: var(--radius-lg);
-    padding: 18px;
-    box-shadow: var(--shadow-strong);
-    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
     gap: 12px;
-    border: 1px solid rgba(130, 140, 160, 0.12);
 }
 
-.result-card img {
+.screen-result {
+    padding: 0;
+}
+
+.screen-result img {
     width: 100%;
-    height: clamp(230px, 42vh, 340px);
-    border-radius: 18px;
+    height: clamp(260px, 46vh, 420px);
+    border-radius: 0;
     object-fit: cover;
 }
 
