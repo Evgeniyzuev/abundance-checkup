@@ -116,20 +116,20 @@ const screens = [
             "Баланс и гармония"
         ],
         images: [
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%20wellness%20practice%20at%20sunset.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Couple%20holding%20hands%20%2828619046534%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=800"
         ],
         resultImages: [
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%20wellness%20practice%20at%20sunset.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Couple%20holding%20hands%20%2828619046534%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=1200"
         ],
         feedbacks: [
             "Этот выбор делают люди,\nкоторые чувствуют:\nбез энергии всё остальное даётся сложнее.\n\nТебе важно хорошо чувствовать себя в теле,\nбыть в форме\nи иметь запас сил для жизни.",
@@ -196,52 +196,28 @@ const screens = [
             }
         ]
     },
-    /*
-    {
-        id: 3,
-        type: "question",
-        title: "Что для тебя сейчас важнее в деньгах?",
-        subtitle: "Выбери тот вариант, который ближе.",
-        options: [
-            "Спокойная стабильность",
-            "Быстрый рост",
-            "Свобода и мобильность",
-            "Большие цели и масштаб",
-            "Баланс и комфорт",
-            "Пока не знаю"
-        ],
-        feedbacks: [
-            "Похоже, для тебя деньги — не просто цифры, а способ чувствовать уверенность и контроль над жизнью.",
-            "Похоже, для тебя деньги — не просто цифры, а способ чувствовать уверенность и контроль над жизнью.",
-            "Похоже, для тебя деньги — не просто цифры, а способ чувствовать уверенность и контроль над жизнью.",
-            "Похоже, для тебя деньги — не просто цифры, а способ чувствовать уверенность и контроль над жизнью.",
-            "Ты выбираешь устойчивость и качество — это зрелая настройка.",
-            "Нормально не фиксировать ответ — ты даёшь себе пространство разобраться."
-        ]
-    },
-    */
-    {
-        id: 4,
-        type: "question",
-        title: "Как ты хочешь распоряжаться своим временем?",
-        subtitle: "Что откликается сильнее всего?",
-        options: [
-            "Чёткий график и предсказуемость",
-            "Гибкость и выбор",
-            "Полная свобода",
-            "Свой ритм, без жёстких рамок",
-            "Баланс работы и жизни",
-            "Пока не знаю"
-        ],
-        feedbacks: [
-            "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
-            "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
-            "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
-            "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
-            "Ты ищешь гармонию, а не крайности — это сильная позиция.",
-            "Нормально быть в поиске — это значит, что ты прислушиваешься к себе."
-        ]
-    },
+    // {
+    //     id: 4,
+    //     type: "question",
+    //     title: "Как ты хочешь распоряжаться своим временем?",
+    //     subtitle: "Что откликается сильнее всего?",
+    //     options: [
+    //         "Чёткий график и предсказуемость",
+    //         "Гибкость и выбор",
+    //         "Полная свобода",
+    //         "Свой ритм, без жёстких рамок",
+    //         "Баланс работы и жизни",
+    //         "Пока не знаю"
+    //     ],
+    //     feedbacks: [
+    //         "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
+    //         "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
+    //         "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
+    //         "Этот выбор часто делают люди, которые ценят своё внутреннее состояние и не хотят жить в постоянном напряжении.",
+    //         "Ты ищешь гармонию, а не крайности — это сильная позиция.",
+    //         "Нормально быть в поиске — это значит, что ты прислушиваешься к себе."
+    //     ]
+    // },
     {
         id: 5,
         type: "question",
