@@ -435,4 +435,12 @@ body {
         min-height: 100dvh;
         padding-top: env(safe-area-inset-top);
     }
+
+    .app-main {
+        min-height: 0;
+        height: calc(100dvh - 68px - env(safe-area-inset-top));
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: calc(18px + env(safe-area-inset-bottom));
+    }
 }
