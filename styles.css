@@ -423,6 +423,16 @@ body {
 
     .app-shell,
     .phone {
-        height: 100svh;
+        height: 100dvh;
+    }
+
+    .app-shell {
+        display: block;
+        min-height: 100dvh;
+    }
+
+    .phone {
+        min-height: 100dvh;
+        padding-top: env(safe-area-inset-top);
     }
 }
