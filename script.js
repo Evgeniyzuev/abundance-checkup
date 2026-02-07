@@ -974,9 +974,115 @@ const screens = [
             }
         ]
     },
-
     {
         id: 12,
+        type: "question",
+        title: "Какая покупка или образ жизни мотивирует тебя сильнее всего?",
+        subtitle: "Представь, что это уже возможно. Выбери то, что отзывается.",
+        options: [
+            "Новый автомобиль",
+            "Путешествие мечты",
+            "Дом или квартира",
+            "Финансовая подушка",
+            "Образ жизни «могу себе позволить»",
+            "Другое / свой вариант"
+        ],
+        images: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg/960px-2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg",
+            "https://images.unsplash.com/photo-1665510235415-1ff0b3141c6c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
+            "https://images.unsplash.com/photo-1760067537293-6b30141d6a52?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
+            "https://images.unsplash.com/photo-1633158829556-6ea20ad39b4f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
+            "https://images.unsplash.com/photo-1641924676093-42e61835bbe2?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
+            "https://images.unsplash.com/photo-1759148413949-4fb5f0b03681?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800"
+        ],
+        resultImages: [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8a/2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg",
+            "https://images.unsplash.com/photo-1665510235415-1ff0b3141c6c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
+            "https://images.unsplash.com/photo-1760067537293-6b30141d6a52?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
+            "https://images.unsplash.com/photo-1633158829556-6ea20ad39b4f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
+            "https://images.unsplash.com/photo-1641924676093-42e61835bbe2?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
+            "https://images.unsplash.com/photo-1759148413949-4fb5f0b03681?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200"
+        ],
+        feedbacks: [
+            "Представь, как забираешь свой новый автомобиль —\nименно тот, который ты хочешь.\nВпервые садишься за руль\nи чувствуешь: это реально,\nу тебя получилось.\n\nЭто про свободу движения,\nконтроль над временем\nи удовольствие от пути.\n\nТакие желания хорошо превращаются\nв конкретные финансовые цели.",
+            "Представь поездку мечты:\nновые места, воздух,\nощущение «я живу по-настоящему».\n\nЭто про впечатления,\nперезагрузку\nи вкус к жизни.\n\nКогда есть система,\nсвободы передвижения становится больше.",
+            "Представь своё пространство —\nместо, где спокойно и по-настоящему твоё.\n\nЭто про безопасность,\nустойчивость\nи ощущение базы под ногами.\n\nТакие решения рождаются\nиз долгосрочного роста и ясного плана.",
+            "Представь утро без тревоги о деньгах.\nКогда есть подушка,\nрешения принимаются спокойно.\n\nЭто не про жадность,\nа про внутреннюю тишину\nи чувство защищённости.\n\nИзобилие начинается\nс безопасности.",
+            "Представь жизнь, где можно выбирать:\nпо желанию, а не по цене.\nКомфорт, сервис, детали —\nвсё на своём уровне.\n\nЭто про качество жизни\nи ощущение «я могу».\n\nТакое приходит как результат\nвыстроенной системы.",
+            "Представь желание,\nкоторое важно именно тебе.\nБез чужих сценариев,\nбез «как принято».\n\nЭто про свободу формулировать свои цели\nи идти своим маршрутом.\n\nСистема умеет работать\nи с уникальными желаниями."
+        ],
+        miniChoices: [
+            {
+                question: "Что в этом важнее всего?",
+                options: [
+                    "Именно тот автомобиль",
+                    "Комфорт и удобство",
+                    "Бренд и статус",
+                    "Драйв и скорость",
+                    "Безопасность"
+                ],
+                hint: "Чёткая цель ускоряет движение ➡️"
+            },
+            {
+                question: "Что в путешествии главное?",
+                options: [
+                    "Новые места",
+                    "Свобода и спонтанность",
+                    "Комфорт и сервис",
+                    "Компания",
+                    "Перезагрузка"
+                ],
+                hint: "Мечта становится реальностью через систему ➡️"
+            },
+            {
+                question: "Что в доме важнее?",
+                options: [
+                    "Своё пространство",
+                    "Локация",
+                    "Уют и дизайн",
+                    "Безопасность",
+                    "Инвестиция"
+                ],
+                hint: "Когда есть ясность, решение приходит легче ➡️"
+            },
+            {
+                question: "Что даёт финансовая подушка?",
+                options: [
+                    "Спокойствие",
+                    "Подушка на 6–12 месяцев",
+                    "Свободу решений",
+                    "Закрыть долги",
+                    "Инвестиции"
+                ],
+                hint: "Безопасность — основа роста ➡️"
+            },
+            {
+                question: "Что в образе жизни важнее?",
+                options: [
+                    "Качество и сервис",
+                    "Свобода выбирать",
+                    "Эстетика и детали",
+                    "Статус и признание",
+                    "Время для себя"
+                ],
+                hint: "Качество жизни рождается из устойчивости ➡️"
+            },
+            {
+                question: "Что ближе всего твоему желанию?",
+                options: [
+                    "Свой сценарий",
+                    "Новый опыт",
+                    "Забота о близких",
+                    "Переезд",
+                    "Творческий проект"
+                ],
+                hint: "Уникальные цели тоже можно выстроить ➡️"
+            }
+        ]
+    },
+
+    {
+        id: 13,
         type: "final",
         title: "Картина начинает складываться",
         subtitle:
