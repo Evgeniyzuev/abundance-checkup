@@ -1260,29 +1260,6 @@ const imageSeeds = [
     "abundance-card-6"
 ];
 
-const TITLE_MIN_SIZE_PX = 14;
-const TITLE_STEP_PX = 0.5;
-
-function fitQuestionTitle() {
-    const screen = screens[currentIndex];
-    if (!screen || screen.type !== "question") {
-        screenTitle.style.fontSize = "";
-        return;
-    }
-
-    screenTitle.style.fontSize = "";
-    const computedSize = parseFloat(getComputedStyle(screenTitle).fontSize);
-    let size = Number.isFinite(computedSize) ? computedSize : 18;
-    const availableWidth = screenTitle.clientWidth;
-
-    if (!availableWidth) return;
-
-    while (screenTitle.scrollWidth > availableWidth && size > TITLE_MIN_SIZE_PX) {
-        size -= TITLE_STEP_PX;
-        screenTitle.style.fontSize = `${size}px`;
-    }
-}
-
 function renderQuestionScreen() {
     const screen = screens[currentIndex];
     progressBar.style.width = `${(screen.id / screens.length) * 100}%`;
@@ -1301,7 +1278,6 @@ function renderQuestionScreen() {
     }
 
     startBtn.classList.remove("is-visible");
-    fitQuestionTitle();
 
     if (screen.type === "final") {
         optionsGrid.innerHTML = "";
@@ -1505,17 +1481,3 @@ nextBtn.addEventListener("click", () => {
 });
 
 renderQuestionScreen();
-
-window.addEventListener("resize", () => {
-    fitQuestionTitle();
-});
-
-window.addEventListener("orientationchange", () => {
-    fitQuestionTitle();
-});
-
-if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(() => {
-        fitQuestionTitle();
-    });
-}
