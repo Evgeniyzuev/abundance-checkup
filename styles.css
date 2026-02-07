@@ -32,6 +32,11 @@ body {
     min-height: 100vh;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 .app-shell {
     min-height: 100vh;
     display: grid;
@@ -560,16 +565,17 @@ body {
 
     .app-shell,
     .phone {
-        height: 100dvh;
+        height: 100vh;
+        min-height: 100vh;
     }
 
     .app-shell {
         display: block;
-        min-height: 100dvh;
+        min-height: 100vh;
     }
 
     .phone {
-        min-height: 100dvh;
+        min-height: 100vh;
         padding-top: env(safe-area-inset-top);
     }
 
@@ -582,6 +588,24 @@ body {
     }
 
     .app-footer {
-        padding-bottom: 4px;
+        padding-bottom: calc(4px + env(safe-area-inset-bottom));
+    }
+}
+
+@supports (height: 100svh) {
+    @media (max-width: 899px) {
+        .app-shell,
+        .phone {
+            height: 100svh;
+            min-height: 100svh;
+        }
+
+        .app-shell {
+            min-height: 100svh;
+        }
+
+        .phone {
+            min-height: 100svh;
+        }
     }
 }
