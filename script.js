@@ -1191,9 +1191,26 @@ const screens = [
     {
         id: 14,
         type: "final",
-        title: "Картина начинает складываться",
+        title: "Это финал нашего чекапа и лишь небольшой шаг к цели.",
         subtitle:
-            "Ты хочешь больше, чем просто «нормально». И это не проблема. Многие желания конфликтуют не внутри человека — а внутри системы. В правильной системе они могут усиливать друг друга."
+            "Ты уже увидел(а) часть своей карты — и это важный момент.\nДальше можно идти мягко, но уверенно.",
+        finalMessage:
+            "Эмоции — это топливо на нашем пути.\nМожно позволить себе больше!",
+        finalQuestions: [
+            "Стало ли немного яснее?",
+            "Что-то откликнулось внутри?"
+        ],
+        finalShareText:
+            "Поделиться с человеком, которому это может быть интересно.\nИ вам будет что обсудить потом.",
+        shareUrl: "https://abundance-checkup.vercel.app/",
+        shareMessage: "Прошёл(ла) чек‑ап Abundance Checkup. Посмотри, может быть откликнется.",
+        shareHint: "Ссылка скопирована.",
+        finalNextTitle: "Какой можно сделать следующий шаг?",
+        finalNextText: "Забрать награду за чекап и определить следующий шаг можно тут.",
+        nextProductTitle: "Abundance Effect! 🎯",
+        nextProductSubtitle: "Мощный инструмент для роста и исполнения желаний.",
+        nextSiteUrl: "https://abundance-effect.vercel.app/",
+        nextTelegramUrl: "https://t.me/AbundanceEffectBot/Abundance"
     }
 ];
 
@@ -1214,6 +1231,22 @@ const miniTitle = document.getElementById("miniTitle");
 const miniOptions = document.getElementById("miniOptions");
 const miniHint = document.getElementById("miniHint");
 const inviteLink = document.getElementById("inviteLink");
+const finalPanel = document.getElementById("finalPanel");
+const finalMessage = document.getElementById("finalMessage");
+const finalQuestions = document.getElementById("finalQuestions");
+const finalShareText = document.getElementById("finalShareText");
+const shareMainBtn = document.getElementById("shareMainBtn");
+const copyLinkBtn = document.getElementById("copyLinkBtn");
+const shareTelegram = document.getElementById("shareTelegram");
+const shareWhatsapp = document.getElementById("shareWhatsapp");
+const shareVk = document.getElementById("shareVk");
+const shareHint = document.getElementById("shareHint");
+const finalNextTitle = document.getElementById("finalNextTitle");
+const finalNextText = document.getElementById("finalNextText");
+const nextProductTitle = document.getElementById("nextProductTitle");
+const nextProductSubtitle = document.getElementById("nextProductSubtitle");
+const nextSiteBtn = document.getElementById("nextSiteBtn");
+const nextTelegramBtn = document.getElementById("nextTelegramBtn");
 
 let currentIndex = 0;
 let pendingAdvance = null;
@@ -1320,25 +1353,112 @@ function showResult(screen, optionIndex) {
     } else {
         miniChoice.classList.remove("is-visible");
     }
+    finalPanel.classList.remove("is-visible");
+    shareHint.textContent = "";
 
     screenQuestion.classList.remove("is-active");
     screenResult.classList.add("is-active");
 }
 
 function showFinal() {
+    const finalScreen = screens[currentIndex];
     resultImage.src = "https://picsum.photos/seed/abundance-final/900/1200.jpg";
     resultImage.alt = "Финальный экран";
     resultImage.loading = "lazy";
     resultImage.decoding = "async";
     aiBadge.textContent = "Благодарю";
     miniChoice.classList.remove("is-visible");
-    resultTitle.textContent = screens[currentIndex].title;
-    resultText.textContent = screens[currentIndex].subtitle;
+    resultTitle.textContent = finalScreen.title;
+    resultText.textContent = finalScreen.subtitle;
     nextBtn.textContent = "Ок";
-    inviteLink.classList.add("is-visible");
+    inviteLink.classList.remove("is-visible");
+
+    finalMessage.textContent = finalScreen.finalMessage || "";
+    finalQuestions.innerHTML = "";
+    if (finalScreen.finalQuestions) {
+        finalScreen.finalQuestions.forEach((question) => {
+            const item = document.createElement("div");
+            item.className = "final-question";
+            item.textContent = question;
+            finalQuestions.appendChild(item);
+        });
+    }
+    finalShareText.textContent = finalScreen.finalShareText || "";
+    shareHint.textContent = "";
+    finalNextTitle.textContent = finalScreen.finalNextTitle || "";
+    finalNextText.textContent = finalScreen.finalNextText || "";
+    nextProductTitle.textContent = finalScreen.nextProductTitle || "";
+    nextProductSubtitle.textContent = finalScreen.nextProductSubtitle || "";
+    nextSiteBtn.href = finalScreen.nextSiteUrl || "#";
+    nextTelegramBtn.href = finalScreen.nextTelegramUrl || "#";
+
+    const shareUrl = finalScreen.shareUrl || "";
+    const shareMessage = finalScreen.shareMessage || finalScreen.title || "";
+    if (shareUrl) {
+        const encodedUrl = encodeURIComponent(shareUrl);
+        const encodedText = encodeURIComponent(shareMessage);
+        shareTelegram.href = `https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`;
+        shareWhatsapp.href = `https://wa.me/?text=${encodedText}%20${encodedUrl}`;
+        shareVk.href = `https://vk.com/share.php?url=${encodedUrl}&title=${encodedText}`;
+    }
+
+    finalPanel.classList.add("is-visible");
     screenQuestion.classList.remove("is-active");
     screenResult.classList.add("is-active");
 }
+
+function getFinalScreen() {
+    if (screens[currentIndex] && screens[currentIndex].type === "final") {
+        return screens[currentIndex];
+    }
+    return screens.find((screen) => screen.type === "final");
+}
+
+async function copyToClipboard(text) {
+    if (!text) return false;
+    if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return true;
+    }
+    const temp = document.createElement("textarea");
+    temp.value = text;
+    temp.setAttribute("readonly", "");
+    temp.style.position = "absolute";
+    temp.style.left = "-9999px";
+    document.body.appendChild(temp);
+    temp.select();
+    const success = document.execCommand("copy");
+    document.body.removeChild(temp);
+    return success;
+}
+
+shareMainBtn.addEventListener("click", async () => {
+    const finalScreen = getFinalScreen();
+    if (!finalScreen) return;
+    const shareData = {
+        title: "Abundance Checkup",
+        text: finalScreen.shareMessage || finalScreen.title,
+        url: finalScreen.shareUrl
+    };
+    try {
+        if (navigator.share) {
+            await navigator.share(shareData);
+            shareHint.textContent = "Спасибо! Можно поделиться ещё раз.";
+            return;
+        }
+    } catch (error) {
+        // Ignore share errors and fallback to copy.
+    }
+    const copied = await copyToClipboard(finalScreen.shareUrl);
+    shareHint.textContent = copied ? finalScreen.shareHint : "Не удалось скопировать.";
+});
+
+copyLinkBtn.addEventListener("click", async () => {
+    const finalScreen = getFinalScreen();
+    if (!finalScreen) return;
+    const copied = await copyToClipboard(finalScreen.shareUrl);
+    shareHint.textContent = copied ? finalScreen.shareHint : "Не удалось скопировать.";
+});
 
 function goNext() {
     currentIndex = Math.min(currentIndex + 1, screens.length - 1);

@@ -305,6 +305,133 @@ body {
     line-height: 1.5;
 }
 
+.final-panel {
+    margin-top: 14px;
+    display: none;
+    gap: 14px;
+}
+
+.final-panel.is-visible {
+    display: grid;
+}
+
+.final-message {
+    background: linear-gradient(135deg, rgba(27, 217, 130, 0.12), rgba(24, 191, 161, 0.12));
+    border-radius: 18px;
+    padding: 14px;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--ink);
+    white-space: pre-line;
+    box-shadow: 0 12px 24px rgba(27, 217, 130, 0.12);
+}
+
+.final-questions {
+    display: grid;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: var(--ink);
+}
+
+.final-question {
+    padding: 10px 12px;
+    border-radius: 14px;
+    background: rgba(90, 110, 140, 0.08);
+}
+
+.final-section-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--ink);
+    margin-bottom: 4px;
+}
+
+.final-section-text {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.final-share,
+.final-next {
+    display: grid;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: var(--shadow-soft);
+}
+
+.share-actions,
+.next-actions {
+    display: grid;
+    gap: 10px;
+}
+
+.share-btn,
+.next-btn {
+    border: none;
+    border-radius: 999px;
+    padding: 10px 14px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: var(--shadow-soft);
+}
+
+.share-btn.is-ghost,
+.next-btn.is-ghost {
+    background: rgba(27, 217, 130, 0.12);
+    color: var(--ink);
+    border: 1px solid rgba(27, 217, 130, 0.3);
+    box-shadow: none;
+}
+
+.share-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.share-chip {
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--ink);
+    background: rgba(90, 110, 140, 0.1);
+    padding: 6px 12px;
+    border-radius: 999px;
+}
+
+.share-hint {
+    font-size: 0.82rem;
+    color: rgba(27, 29, 37, 0.6);
+}
+
+.next-card {
+    display: grid;
+    gap: 8px;
+    padding: 12px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(24, 191, 161, 0.12), rgba(27, 217, 130, 0.12));
+}
+
+.next-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--ink);
+}
+
+.next-subtitle {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.45;
+}
+
 .ai-badge {
     align-self: flex-start;
     font-size: 0.72rem;
