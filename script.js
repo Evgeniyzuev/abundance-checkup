@@ -398,20 +398,20 @@ const screens = [
             "Энергичность и амбициозность"
         ],
         images: [
-            "https://source.unsplash.com/featured/800x800?freedom,sky",
-            "https://source.unsplash.com/featured/800x800?honesty,portrait",
-            "https://source.unsplash.com/featured/800x800?city,scale",
-            "https://source.unsplash.com/featured/800x800?cozy,home",
-            "https://source.unsplash.com/featured/800x800?friends,together",
-            "https://source.unsplash.com/featured/800x800?energy,run"
+            "https://picsum.photos/seed/abundance-freedom/800/800",
+            "https://picsum.photos/seed/abundance-honesty/800/800",
+            "https://picsum.photos/seed/abundance-scale/800/800",
+            "https://picsum.photos/seed/abundance-cozy/800/800",
+            "https://picsum.photos/seed/abundance-friends/800/800",
+            "https://picsum.photos/seed/abundance-energy/800/800"
         ],
         resultImages: [
-            "https://source.unsplash.com/featured/1200x1200?freedom,sky",
-            "https://source.unsplash.com/featured/1200x1200?honesty,portrait",
-            "https://source.unsplash.com/featured/1200x1200?city,scale",
-            "https://source.unsplash.com/featured/1200x1200?cozy,home",
-            "https://source.unsplash.com/featured/1200x1200?friends,together",
-            "https://source.unsplash.com/featured/1200x1200?energy,run"
+            "https://picsum.photos/seed/abundance-freedom/1200/1200",
+            "https://picsum.photos/seed/abundance-honesty/1200/1200",
+            "https://picsum.photos/seed/abundance-scale/1200/1200",
+            "https://picsum.photos/seed/abundance-cozy/1200/1200",
+            "https://picsum.photos/seed/abundance-friends/1200/1200",
+            "https://picsum.photos/seed/abundance-energy/1200/1200"
         ],
         feedbacks: [
             "Ощущение свободы делает жизнь шире.\nЭто притягивает и вдохновляет,\nдаёт воздух и желание идти своим путём.",
@@ -492,20 +492,20 @@ const screens = [
             "Тревога о будущем"
         ],
         images: [
-            "https://source.unsplash.com/featured/800x800?fatigue,night",
-            "https://source.unsplash.com/featured/800x800?fog,road",
-            "https://source.unsplash.com/featured/800x800?blocked,window",
-            "https://source.unsplash.com/featured/800x800?waiting,station",
-            "https://source.unsplash.com/featured/800x800?calm,lake",
-            "https://source.unsplash.com/featured/800x800?worry,storm"
+            "https://picsum.photos/seed/abundance-fatigue/800/800",
+            "https://picsum.photos/seed/abundance-fog/800/800",
+            "https://picsum.photos/seed/abundance-block/800/800",
+            "https://picsum.photos/seed/abundance-wait/800/800",
+            "https://picsum.photos/seed/abundance-calm/800/800",
+            "https://picsum.photos/seed/abundance-worry/800/800"
         ],
         resultImages: [
-            "https://source.unsplash.com/featured/1200x1200?fatigue,night",
-            "https://source.unsplash.com/featured/1200x1200?fog,road",
-            "https://source.unsplash.com/featured/1200x1200?blocked,window",
-            "https://source.unsplash.com/featured/1200x1200?waiting,station",
-            "https://source.unsplash.com/featured/1200x1200?calm,lake",
-            "https://source.unsplash.com/featured/1200x1200?worry,storm"
+            "https://picsum.photos/seed/abundance-fatigue/1200/1200",
+            "https://picsum.photos/seed/abundance-fog/1200/1200",
+            "https://picsum.photos/seed/abundance-block/1200/1200",
+            "https://picsum.photos/seed/abundance-wait/1200/1200",
+            "https://picsum.photos/seed/abundance-calm/1200/1200",
+            "https://picsum.photos/seed/abundance-worry/1200/1200"
         ],
         feedbacks: [
             "Усталость и напряжение — состояние, когда всё держится на усилии.\nХочется выдохнуть, снизить давление\nи вернуть себе ресурс.",
@@ -577,20 +577,20 @@ const screens = [
             "Оставить след"
         ],
         images: [
-            "https://source.unsplash.com/featured/800x800?calm,home",
-            "https://source.unsplash.com/featured/800x800?freedom,travel",
-            "https://source.unsplash.com/featured/800x800?adventure,road",
-            "https://source.unsplash.com/featured/800x800?craft,studio",
-            "https://source.unsplash.com/featured/800x800?city,view",
-            "https://source.unsplash.com/featured/800x800?hands,community"
+            "https://picsum.photos/seed/abundance-peace/800/800",
+            "https://picsum.photos/seed/abundance-choice/800/800",
+            "https://picsum.photos/seed/abundance-fullness/800/800",
+            "https://picsum.photos/seed/abundance-calling/800/800",
+            "https://picsum.photos/seed/abundance-horizon/800/800",
+            "https://picsum.photos/seed/abundance-impact/800/800"
         ],
         resultImages: [
-            "https://source.unsplash.com/featured/1200x1200?calm,home",
-            "https://source.unsplash.com/featured/1200x1200?freedom,travel",
-            "https://source.unsplash.com/featured/1200x1200?adventure,road",
-            "https://source.unsplash.com/featured/1200x1200?craft,studio",
-            "https://source.unsplash.com/featured/1200x1200?city,view",
-            "https://source.unsplash.com/featured/1200x1200?hands,community"
+            "https://picsum.photos/seed/abundance-peace/1200/1200",
+            "https://picsum.photos/seed/abundance-choice/1200/1200",
+            "https://picsum.photos/seed/abundance-fullness/1200/1200",
+            "https://picsum.photos/seed/abundance-calling/1200/1200",
+            "https://picsum.photos/seed/abundance-horizon/1200/1200",
+            "https://picsum.photos/seed/abundance-impact/1200/1200"
         ],
         feedbacks: [
             "Внутренний покой — это жизнь без постоянной тревоги.\nХочется устойчивости, ясности и своего ритма.\nЭто про тихую уверенность и ощущение опоры.",
@@ -800,7 +800,7 @@ function showFinal() {
     resultImage.alt = "Финальный экран";
     resultImage.loading = "lazy";
     resultImage.decoding = "async";
-    aiBadge.textContent = "Итог";
+    aiBadge.textContent = "Благодарю";
     miniChoice.classList.remove("is-visible");
     resultTitle.textContent = screens[currentIndex].title;
     resultText.textContent = screens[currentIndex].subtitle;
