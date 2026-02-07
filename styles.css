@@ -299,12 +299,13 @@ body {
 }
 
 .screen-result img {
-    width: calc(100% + 24px);
-    margin: 0 -12px;
+    width: 100%;
+    margin: 0;
     aspect-ratio: 16 / 9;
     height: auto;
-    border-radius: 0;
+    border-radius: 22px;
     object-fit: cover;
+    box-shadow: var(--shadow-soft);
 }
 
 .result-body h2 {
@@ -462,11 +463,11 @@ body {
 
 .mini-choice {
     margin-top: 10px;
-    padding: 12px;
-    border-radius: 16px;
+    padding: 8px;
+    border-radius: 12px;
     background: rgba(90, 110, 140, 0.08);
     display: none;
-    gap: 10px;
+    gap: 6px;
 }
 
 .mini-choice.is-visible {
@@ -481,14 +482,14 @@ body {
 
 .mini-options {
     display: grid;
-    gap: 8px;
+    gap: 6px;
 }
 
 .mini-option {
     border: 1px solid rgba(90, 110, 140, 0.2);
     background: #ffffff;
     border-radius: 999px;
-    padding: 8px 12px;
+    padding: 6px 10px;
     font-size: 0.85rem;
     text-align: left;
     cursor: pointer;
