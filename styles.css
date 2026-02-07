@@ -383,6 +383,14 @@ body {
     gap: 10px;
 }
 
+.final-share .final-section-title,
+#copyLinkBtn,
+.share-links,
+.share-links a,
+#shareHint {
+    display: none;
+}
+
 .share-btn,
 .next-btn {
     border: none;

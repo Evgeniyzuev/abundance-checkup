@@ -1192,23 +1192,21 @@ const screens = [
         id: 14,
         type: "final",
         title: "Это финал нашего чекапа и лишь небольшой шаг к цели.",
-        subtitle:
-            "Ты уже увидел(а) часть своей карты — и это важный момент.\nДальше можно идти мягко, но уверенно.",
         finalMessage:
-            "Эмоции — это топливо на нашем пути.\nМожно позволить себе больше!",
+            "Эмоции — это топливо на нашем пути.\nТеперь можно позволить себе больше!",
         finalQuestions: [
             "Стало ли немного яснее?",
             "Что-то откликнулось внутри?"
         ],
         finalShareText:
-            "Поделиться с человеком, которому это может быть интересно.\nИ вам будет что обсудить потом.",
+            "Можно поделиться с человеком, которому это может быть интересно.\nИ вам будет что обсудить потом.",
         shareUrl: "https://abundance-checkup.vercel.app/",
         shareMessage: "Прошёл(ла) чек‑ап Abundance Checkup. Посмотри, может быть откликнется.",
         shareHint: "Ссылка скопирована.",
         finalNextTitle: "Какой можно сделать следующий шаг?",
-        finalNextText: "Забрать награду за чекап и определить следующий шаг можно тут.",
+        finalNextText: "Забрать награду и определить следующий шаг",
         nextProductTitle: "Abundance Effect! 🎯",
-        nextProductSubtitle: "Мощный инструмент для роста и исполнения желаний.",
+        nextProductSubtitle: "Инструмент для роста и исполнения желаний.",
         nextSiteUrl: "https://abundance-effect.vercel.app/",
         nextTelegramUrl: "https://t.me/AbundanceEffectBot/Abundance"
     }
@@ -1265,6 +1263,7 @@ function renderQuestionScreen() {
     progressBar.style.width = `${(screen.id / screens.length) * 100}%`;
     screenTitle.textContent = screen.title;
     screenSubtitle.textContent = screen.subtitle || "";
+    nextBtn.style.display = "";
 
     optionsGrid.innerHTML = "";
     screenQuestion.classList.add("is-active");
@@ -1330,6 +1329,7 @@ function showResult(screen, optionIndex) {
     resultText.textContent = feedback;
     aiBadge.textContent = "Отклик AI";
     inviteLink.classList.remove("is-visible");
+    nextBtn.style.display = "";
 
     miniOptions.innerHTML = "";
     if (screen.miniChoices && screen.miniChoices[optionIndex]) {
@@ -1354,7 +1354,9 @@ function showResult(screen, optionIndex) {
         miniChoice.classList.remove("is-visible");
     }
     finalPanel.classList.remove("is-visible");
-    shareHint.textContent = "";
+    if (shareHint) {
+        shareHint.textContent = "";
+    }
 
     screenQuestion.classList.remove("is-active");
     screenResult.classList.add("is-active");
@@ -1371,6 +1373,7 @@ function showFinal() {
     resultTitle.textContent = finalScreen.title;
     resultText.textContent = finalScreen.subtitle;
     nextBtn.textContent = "Ок";
+    nextBtn.style.display = "none";
     inviteLink.classList.remove("is-visible");
 
     finalMessage.textContent = finalScreen.finalMessage || "";
@@ -1384,7 +1387,9 @@ function showFinal() {
         });
     }
     finalShareText.textContent = finalScreen.finalShareText || "";
-    shareHint.textContent = "";
+    if (shareHint) {
+        shareHint.textContent = "";
+    }
     finalNextTitle.textContent = finalScreen.finalNextTitle || "";
     finalNextText.textContent = finalScreen.finalNextText || "";
     nextProductTitle.textContent = finalScreen.nextProductTitle || "";
@@ -1394,7 +1399,7 @@ function showFinal() {
 
     const shareUrl = finalScreen.shareUrl || "";
     const shareMessage = finalScreen.shareMessage || finalScreen.title || "";
-    if (shareUrl) {
+    if (shareUrl && shareTelegram && shareWhatsapp && shareVk) {
         const encodedUrl = encodeURIComponent(shareUrl);
         const encodedText = encodeURIComponent(shareMessage);
         shareTelegram.href = `https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`;
@@ -1443,22 +1448,30 @@ shareMainBtn.addEventListener("click", async () => {
     try {
         if (navigator.share) {
             await navigator.share(shareData);
-            shareHint.textContent = "Спасибо! Можно поделиться ещё раз.";
+            if (shareHint) {
+                shareHint.textContent = "Спасибо! Можно поделиться ещё раз.";
+            }
             return;
         }
     } catch (error) {
         // Ignore share errors and fallback to copy.
     }
     const copied = await copyToClipboard(finalScreen.shareUrl);
-    shareHint.textContent = copied ? finalScreen.shareHint : "Не удалось скопировать.";
+    if (shareHint) {
+        shareHint.textContent = copied ? finalScreen.shareHint : "Не удалось скопировать.";
+    }
 });
 
-copyLinkBtn.addEventListener("click", async () => {
-    const finalScreen = getFinalScreen();
-    if (!finalScreen) return;
-    const copied = await copyToClipboard(finalScreen.shareUrl);
-    shareHint.textContent = copied ? finalScreen.shareHint : "Не удалось скопировать.";
-});
+if (copyLinkBtn) {
+    copyLinkBtn.addEventListener("click", async () => {
+        const finalScreen = getFinalScreen();
+        if (!finalScreen) return;
+        const copied = await copyToClipboard(finalScreen.shareUrl);
+        if (shareHint) {
+            shareHint.textContent = copied ? finalScreen.shareHint : "Не удалось скопировать.";
+        }
+    });
+}
 
 function goNext() {
     currentIndex = Math.min(currentIndex + 1, screens.length - 1);
