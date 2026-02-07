@@ -299,8 +299,10 @@ body {
 }
 
 .screen-result img {
-    width: 100%;
-    height: clamp(260px, 46vh, 420px);
+    width: calc(100% + 24px);
+    margin: 0 -12px;
+    aspect-ratio: 16 / 9;
+    height: auto;
     border-radius: 0;
     object-fit: cover;
 }
@@ -452,6 +454,10 @@ body {
     text-transform: uppercase;
     color: rgba(27, 29, 37, 0.55);
     margin-bottom: 6px;
+}
+
+.screen-result .ai-badge {
+    display: none;
 }
 
 .mini-choice {
