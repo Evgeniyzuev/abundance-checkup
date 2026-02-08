@@ -315,7 +315,7 @@ body {
     position: absolute;
     left: 12px;
     right: 12px;
-    bottom: -16px;
+    bottom: -8px;
     display: flex;
     flex-wrap: nowrap;
     gap: 2px;
@@ -325,7 +325,7 @@ body {
 
 .reaction-chip {
     border: 1px solid rgba(90, 110, 140, 0.16);
-    background: transparent;
+    background: rgba(237, 241, 239, 0.425);
     border-radius: 999px;
     padding: 4px 8px;
     font-size: 0.82rem;

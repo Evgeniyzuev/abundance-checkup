@@ -1259,17 +1259,24 @@ const imageSeeds = [
     "abundance-card-6"
 ];
 
-const reactionPresets = [
-    { emoji: "😍", count: 12 },
-    { emoji: "🥰", count: 9 },
-    { emoji: "🥳", count: 7 },
-    { emoji: "😱", count: 0 },
-    { emoji: "😰", count: 0 },
-    { emoji: "💵", count: 5 },
-    { emoji: "❤️", count: 10 }
-];
+const reactionEmojis = ["❤️", "😍", "🥰", "🥳", "💵", "😱", "😰",  ];
+let reactionPresets = [];
 let hasReacted = false;
 let selectedReactionIndex = null;
+
+function getRandomReactionCount() {
+    const roll = Math.random();
+    if (roll < 0.3) return 0;
+    if (roll < 0.5) return Math.floor(1 + Math.random() * 3);
+    return Math.floor(4 + Math.random() * 9);
+}
+
+function buildReactionPresets() {
+    reactionPresets = reactionEmojis.map((emoji) => ({
+        emoji,
+        count: getRandomReactionCount()
+    }));
+}
 
 function renderReactions() {
     if (!resultReactions) return;
@@ -1375,6 +1382,7 @@ function showResult(screen, optionIndex) {
     aiBadge.textContent = "Отклик AI";
     hasReacted = false;
     selectedReactionIndex = null;
+    buildReactionPresets();
     renderReactions();
     inviteLink.classList.remove("is-visible");
     nextBtn.style.display = "";
