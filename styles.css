@@ -299,16 +299,19 @@ body {
 
 .result-media {
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .result-media img {
     width: 100%;
     margin: 0;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
     height: auto;
     border-radius: 22px;
     object-fit: cover;
     box-shadow: var(--shadow-soft);
+    display: block;
 }
 
 .result-reactions {

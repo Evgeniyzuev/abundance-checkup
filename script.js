@@ -20,7 +20,7 @@ const screens = [
             "Свой путь (другое)"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Office%20Building.JPG?width=800",
+            "https://i.pinimg.com/1200x/ee/53/e0/ee53e0560198ec039e7695960f740ab7.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop%20at%20cafe.jpg?width=800",
             "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Speaking%20at%20a%20small%20conference.jpg?width=800",
@@ -28,7 +28,7 @@ const screens = [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20trail%20road%20in%20forest.jpg?width=800"
         ],
         resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Office%20Building.JPG?width=1200",
+            "https://i.pinimg.com/1200x/ee/53/e0/ee53e0560198ec039e7695960f740ab7.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop%20at%20cafe.jpg?width=1200",
             "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Speaking%20at%20a%20small%20conference.jpg?width=1200",
