@@ -27,14 +27,6 @@ const screens = [
             "https://i.pinimg.com/1200x/a3/14/38/a31438cefc77b34fa5bea84852d02402.jpg",
             "https://i.pinimg.com/736x/95/0d/2c/950d2cb74314939436b405159715129e.jpg"
         ],
-        resultImages: [
-            "https://i.pinimg.com/1200x/ee/53/e0/ee53e0560198ec039e7695960f740ab7.jpg",
-            "https://i.pinimg.com/1200x/5d/96/95/5d96955316b9ffbaf8d7de44f50e30d4.jpg",
-            "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://i.pinimg.com/736x/0e/16/d8/0e16d844b40b1a8ad8c4dff2fa62e8a7.jpg",
-            "https://i.pinimg.com/1200x/a3/14/38/a31438cefc77b34fa5bea84852d02402.jpg",
-            "https://i.pinimg.com/736x/95/0d/2c/950d2cb74314939436b405159715129e.jpg"
-        ],
         feedbacks: [
             "Карьерный рост даёт ощущение веса решений.\nВажны ясные ступени, ответственность и влияние.\nДеньги здесь звучат как признание вклада и результата.",
             "Стабильность и комфорт создают опору.\nХочется понятных правил, спокойствия и предсказуемости.\nТак легче сохранять энергию и не распыляться.",
@@ -1374,6 +1366,7 @@ function showResult(screen, optionIndex) {
 
     resultImage.src =
         (screen.resultImages && screen.resultImages[optionIndex]) ||
+        (screen.images && screen.images[optionIndex]) ||
         `https://picsum.photos/seed/${imageSeeds[optionIndex]}/900/1200.jpg`;
     resultImage.alt = title;
     resultImage.loading = "lazy";
