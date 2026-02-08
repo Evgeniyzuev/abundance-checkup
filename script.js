@@ -1221,6 +1221,7 @@ const screenResult = document.getElementById("screenResult");
 const startBtn = document.getElementById("startBtn");
 const nextBtn = document.getElementById("nextBtn");
 const resultImage = document.getElementById("resultImage");
+const resultReactions = document.getElementById("resultReactions");
 const resultTitle = document.getElementById("resultTitle");
 const resultText = document.getElementById("resultText");
 const aiBadge = document.getElementById("aiBadge");
@@ -1257,6 +1258,50 @@ const imageSeeds = [
     "abundance-card-5",
     "abundance-card-6"
 ];
+
+const reactionPresets = [
+    { emoji: "😍", count: 12 },
+    { emoji: "🥰", count: 9 },
+    { emoji: "🥳", count: 7 },
+    { emoji: "😱", count: 0 },
+    { emoji: "😰", count: 0 },
+    { emoji: "💵", count: 5 },
+    { emoji: "❤️", count: 10 }
+];
+let hasReacted = false;
+let selectedReactionIndex = null;
+
+function renderReactions() {
+    if (!resultReactions) return;
+    resultReactions.innerHTML = "";
+    reactionPresets.forEach((item, index) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "reaction-chip";
+        btn.dataset.index = String(index);
+        btn.innerHTML = `
+            <span class="reaction-emoji">${item.emoji}</span>
+            <span class="reaction-count">${item.count}</span>
+        `;
+        btn.addEventListener("click", () => {
+            if (hasReacted) return;
+            item.count += 1;
+            const countEl = btn.querySelector(".reaction-count");
+            if (countEl) {
+                countEl.textContent = String(item.count);
+            }
+            resultReactions.querySelectorAll(".reaction-chip").forEach((chip) => {
+                chip.classList.remove("is-selected");
+            });
+            btn.classList.add("is-bumped");
+            btn.classList.add("is-selected");
+            hasReacted = true;
+            selectedReactionIndex = index;
+            setTimeout(() => btn.classList.remove("is-bumped"), 180);
+        });
+        resultReactions.appendChild(btn);
+    });
+}
 
 function renderQuestionScreen() {
     const screen = screens[currentIndex];
@@ -1328,6 +1373,9 @@ function showResult(screen, optionIndex) {
     resultTitle.textContent = title;
     resultText.textContent = feedback;
     aiBadge.textContent = "Отклик AI";
+    hasReacted = false;
+    selectedReactionIndex = null;
+    renderReactions();
     inviteLink.classList.remove("is-visible");
     nextBtn.style.display = "";
 
