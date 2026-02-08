@@ -1259,22 +1259,23 @@ const imageSeeds = [
     "abundance-card-6"
 ];
 
-const reactionEmojis = ["❤️", "😍", "🥰", "🥳", "💵", "😱", "😰",  ];
+const reactionEmojis = ["❤️", "😍", "🥰", "🥳", "💵", "😱", "😰"];
 let reactionPresets = [];
 let hasReacted = false;
 let selectedReactionIndex = null;
 
-function getRandomReactionCount() {
+function getRandomReactionCount(index) {
     const roll = Math.random();
-    if (roll < 0.3) return 0;
-    if (roll < 0.5) return Math.floor(1 + Math.random() * 3);
-    return Math.floor(4 + Math.random() * 9);
+    const bias = (7 - index);
+    const base =
+        roll < 0.3 & (index > 3) ? 0 : roll < 0.6 & (index > 1) ? Math.floor(1 + Math.random() * 3) : Math.floor(4 + Math.random() * 9);
+    return Math.round(base * bias);
 }
 
 function buildReactionPresets() {
-    reactionPresets = reactionEmojis.map((emoji) => ({
+    reactionPresets = reactionEmojis.map((emoji, index) => ({
         emoji,
-        count: getRandomReactionCount()
+        count: getRandomReactionCount(index)
     }));
 }
 
