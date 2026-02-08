@@ -390,20 +390,20 @@ const screens = [
             "Энергичность и амбициозность"
         ],
         images: [
-            "https://picsum.photos/seed/abundance-freedom/800/800",
-            "https://picsum.photos/seed/abundance-honesty/800/800",
-            "https://picsum.photos/seed/abundance-scale/800/800",
-            "https://picsum.photos/seed/abundance-cozy/800/800",
-            "https://picsum.photos/seed/abundance-friends/800/800",
-            "https://picsum.photos/seed/abundance-energy/800/800"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Light%20through%20open%20door.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=800"
         ],
         resultImages: [
-            "https://picsum.photos/seed/abundance-freedom/1200/1200",
-            "https://picsum.photos/seed/abundance-honesty/1200/1200",
-            "https://picsum.photos/seed/abundance-scale/1200/1200",
-            "https://picsum.photos/seed/abundance-cozy/1200/1200",
-            "https://picsum.photos/seed/abundance-friends/1200/1200",
-            "https://picsum.photos/seed/abundance-energy/1200/1200"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Light%20through%20open%20door.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=1200"
         ],
         feedbacks: [
             "Ощущение свободы делает жизнь шире.\nЭто притягивает и вдохновляет,\nдаёт воздух и желание идти своим путём.",
@@ -484,20 +484,20 @@ const screens = [
             "Тревога о будущем"
         ],
         images: [
-            "https://picsum.photos/seed/abundance-fatigue/800/800",
-            "https://picsum.photos/seed/abundance-fog/800/800",
-            "https://picsum.photos/seed/abundance-block/800/800",
-            "https://picsum.photos/seed/abundance-wait/800/800",
-            "https://picsum.photos/seed/abundance-calm/800/800",
-            "https://picsum.photos/seed/abundance-worry/800/800"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=800"
         ],
         resultImages: [
-            "https://picsum.photos/seed/abundance-fatigue/1200/1200",
-            "https://picsum.photos/seed/abundance-fog/1200/1200",
-            "https://picsum.photos/seed/abundance-block/1200/1200",
-            "https://picsum.photos/seed/abundance-wait/1200/1200",
-            "https://picsum.photos/seed/abundance-calm/1200/1200",
-            "https://picsum.photos/seed/abundance-worry/1200/1200"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=1200"
         ],
         feedbacks: [
             "Усталость и напряжение — состояние, когда всё держится на усилии.\nХочется выдохнуть, снизить давление\nи вернуть себе ресурс.",
@@ -569,20 +569,20 @@ const screens = [
             "Оставить след"
         ],
         images: [
-            "https://picsum.photos/seed/abundance-peace/800/800",
-            "https://picsum.photos/seed/abundance-choice/800/800",
-            "https://picsum.photos/seed/abundance-fullness/800/800",
-            "https://picsum.photos/seed/abundance-calling/800/800",
-            "https://picsum.photos/seed/abundance-horizon/800/800",
-            "https://picsum.photos/seed/abundance-impact/800/800"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=800"
         ],
         resultImages: [
-            "https://picsum.photos/seed/abundance-peace/1200/1200",
-            "https://picsum.photos/seed/abundance-choice/1200/1200",
-            "https://picsum.photos/seed/abundance-fullness/1200/1200",
-            "https://picsum.photos/seed/abundance-calling/1200/1200",
-            "https://picsum.photos/seed/abundance-horizon/1200/1200",
-            "https://picsum.photos/seed/abundance-impact/1200/1200"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=1200"
         ],
         feedbacks: [
             "Внутренний покой — это жизнь без постоянной тревоги.\nХочется устойчивости, ясности и своего ритма.\nЭто про тихую уверенность и ощущение опоры.",
@@ -874,20 +874,20 @@ const screens = [
             "Главное - желание"
         ],
         images: [
-            "https://picsum.photos/seed/abundance-time/800/800",
-            "https://picsum.photos/seed/abundance-idea/800/800",
-            "https://picsum.photos/seed/abundance-capital/800/800",
-            "https://picsum.photos/seed/abundance-skills/800/800",
-            "https://picsum.photos/seed/abundance-experience/800/800",
-            "https://picsum.photos/seed/abundance-base/800/800"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=800"
         ],
         resultImages: [
-            "https://picsum.photos/seed/abundance-time/1200/1200",
-            "https://picsum.photos/seed/abundance-idea/1200/1200",
-            "https://picsum.photos/seed/abundance-capital/1200/1200",
-            "https://picsum.photos/seed/abundance-skills/1200/1200",
-            "https://picsum.photos/seed/abundance-experience/1200/1200",
-            "https://picsum.photos/seed/abundance-base/1200/1200"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=1200"
         ],
         feedbacks: [
             "Время и энергия нужны в любом деле.\nЕсли они есть — это уже опора.\n\nВажно понимать,\nво что именно их вкладывать,\nчтобы движение шло без выгорания.\n\nТемп можно выстроить так,\nчтобы рост был устойчивым,\nа не случайным.",
@@ -1242,13 +1242,31 @@ const nextTelegramBtn = document.getElementById("nextTelegramBtn");
 let currentIndex = 0;
 let pendingAdvance = null;
 
-const imageSeeds = [
-    "abundance-card-1",
-    "abundance-card-2",
-    "abundance-card-3",
-    "abundance-card-4",
-    "abundance-card-5",
-    "abundance-card-6"
+const fallbackImages = [
+    {
+        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=600",
+        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200"
+    },
+    {
+        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=600",
+        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=1200"
+    },
+    {
+        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=600",
+        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=1200"
+    },
+    {
+        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=600",
+        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=1200"
+    },
+    {
+        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=600",
+        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200"
+    },
+    {
+        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=600",
+        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200"
+    }
 ];
 
 const reactionEmojis = ["❤️", "😍", "🥰", "🥳", "💵", "😱", "😰"];
@@ -1334,9 +1352,11 @@ function renderQuestionScreen() {
         card.className = "house-card";
         card.type = "button";
         card.dataset.option = optionIndex + 1;
+        const fallback = fallbackImages[optionIndex];
         const cardImage =
             (screen.images && screen.images[optionIndex]) ||
-            `https://picsum.photos/seed/${imageSeeds[optionIndex]}/600/600.jpg`;
+            (fallback && fallback.card) ||
+            "";
         card.innerHTML = `
             <img src="${cardImage}" alt="${label}" loading="lazy" decoding="async">
             <div class="house-info">
@@ -1364,10 +1384,12 @@ function showResult(screen, optionIndex) {
         screen.feedback ||
         "";
 
+    const fallback = fallbackImages[optionIndex];
     resultImage.src =
         (screen.resultImages && screen.resultImages[optionIndex]) ||
         (screen.images && screen.images[optionIndex]) ||
-        `https://picsum.photos/seed/${imageSeeds[optionIndex]}/900/1200.jpg`;
+        (fallback && (fallback.result || fallback.card)) ||
+        "";
     resultImage.alt = title;
     resultImage.loading = "lazy";
     resultImage.decoding = "async";
@@ -1414,7 +1436,8 @@ function showResult(screen, optionIndex) {
 
 function showFinal() {
     const finalScreen = screens[currentIndex];
-    resultImage.src = "https://picsum.photos/seed/abundance-final/900/1200.jpg";
+    resultImage.src =
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200";
     resultImage.alt = "Финальный экран";
     resultImage.loading = "lazy";
     resultImage.decoding = "async";
