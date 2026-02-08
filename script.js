@@ -20,20 +20,20 @@ const screens = [
             "Свой путь (другое)"
         ],
         images: [
-            "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=700&q=70",
-            "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=70",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Office%20Building.JPG?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop%20at%20cafe.jpg?width=800",
             "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=70",
-            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=700&q=70",
-            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Speaking%20at%20a%20small%20conference.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20trail%20road%20in%20forest.jpg?width=800"
         ],
         resultImages: [
-            "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=70",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Office%20Building.JPG?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Laptop%20at%20cafe.jpg?width=1200",
             "https://i.pinimg.com/736x/1b/15/2a/1b152abede11ac8a15110ba044f55a2c.jpg",
-            "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Public%20Speaking%20at%20a%20small%20conference.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20trail%20road%20in%20forest.jpg?width=1200"
         ],
         feedbacks: [
             "Этот выбор делают люди,\nкоторым важно чувствовать свой вес.\n\nТы хочешь, чтобы к твоему мнению\nприслушивались,\nа решения имели последствия.\n\nДля тебя деньги —\nэто не только доход,\nно и позиция.",
@@ -304,20 +304,20 @@ const screens = [
             "Менять правила"
         ],
         images: [
-            "https://images.unsplash.com/photo-1764093369645-0b04338873f8?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1759240167756-3716fdb2494f?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1753872405845-f417e7e97b4f?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1696254797731-58b78d199dce?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1766685935914-8df748faca05?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1763856957026-a74ab4f05891?auto=format&fit=crop&w=800&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Demonstrator%20with%20sign%20and%20crowd%20in%20background.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Cottage%20house.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/World%20Archery%20target.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Chess%20pieces.jpg?width=800"
         ],
         resultImages: [
-            "https://images.unsplash.com/photo-1764093369645-0b04338873f8?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1759240167756-3716fdb2494f?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1753872405845-f417e7e97b4f?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1696254797731-58b78d199dce?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1766685935914-8df748faca05?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1763856957026-a74ab4f05891?auto=format&fit=crop&w=1200&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Demonstrator%20with%20sign%20and%20crowd%20in%20background.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Cottage%20house.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/World%20Archery%20target.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Chess%20pieces.jpg?width=1200"
         ],
         feedbacks: [
             "Этот выбор делают люди,\nкоторые чувствуют:\nмир неравен — и в нём нужно уметь играть.\n\nТы хочешь быть в позиции,\nгде меньше ограничений\nи больше возможностей.\n\nЭто про адаптацию и расчёт.",
@@ -671,20 +671,20 @@ const screens = [
             "Стать плохим человеком"
         ],
         images: [
-            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Factory%20Automation%20Robotics%20Palettizing%20Bread.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Finish%20Line%20%2816199071533%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=800"
         ],
         resultImages: [
-            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Factory%20Automation%20Robotics%20Palettizing%20Bread.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Finish%20Line%20%2816199071533%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=1200"
         ],
         feedbacks: [
             "Мир меняется всё быстрее,\nи впереди много тумана.\nНеясно, что будет дальше,\nкакие правила останутся,\nна что можно опереться.\n\nЭто ощущение отсутствия ориентиров\nи постоянной нестабильности.",
@@ -778,20 +778,20 @@ const screens = [
             "Ясность"
         ],
         images: [
-            "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=800&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Spotlights%20on%20a%20stage.png?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=800"
         ],
         resultImages: [
-            "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1200&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Spotlights%20on%20a%20stage.png?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=1200"
         ],
         feedbacks: [
             "Тебе важна среда, где есть опора и движение.\nКогда рядом люди с похожим маршрутом,\nстановится легче держать фокус и ритм.\n\nЭто не про «зависеть»,\nа про здоровую поддержку.\nОкружение действительно ускоряет.",
@@ -989,19 +989,19 @@ const screens = [
         ],
         images: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg/960px-2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg",
-            "https://images.unsplash.com/photo-1665510235415-1ff0b3141c6c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
-            "https://images.unsplash.com/photo-1760067537293-6b30141d6a52?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
-            "https://images.unsplash.com/photo-1633158829556-6ea20ad39b4f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
-            "https://images.unsplash.com/photo-1641924676093-42e61835bbe2?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800",
-            "https://images.unsplash.com/photo-1759148413949-4fb5f0b03681?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=800"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Piggy%20bank%20%281120756160%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20lobby%20%2813634874233%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=800"
         ],
         resultImages: [
             "https://upload.wikimedia.org/wikipedia/commons/8/8a/2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg",
-            "https://images.unsplash.com/photo-1665510235415-1ff0b3141c6c?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
-            "https://images.unsplash.com/photo-1760067537293-6b30141d6a52?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
-            "https://images.unsplash.com/photo-1633158829556-6ea20ad39b4f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
-            "https://images.unsplash.com/photo-1641924676093-42e61835bbe2?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200",
-            "https://images.unsplash.com/photo-1759148413949-4fb5f0b03681?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=70&w=1200"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Piggy%20bank%20%281120756160%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20lobby%20%2813634874233%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=1200"
         ],
         feedbacks: [
             "Представь, как забираешь свой новый автомобиль —\nименно тот, который ты хочешь.\nВпервые садишься за руль\nи чувствуешь: это реально,\nу тебя получилось.\n\nЭто про свободу движения,\nконтроль над временем\nи удовольствие от пути.\n\nТакие желания хорошо превращаются\nв конкретные финансовые цели.",
@@ -1095,20 +1095,20 @@ const screens = [
             "Начать сейчас"
         ],
         images: [
-            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=800&q=70",
-            "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Notebook%20with%20pen%2C%20August%2C%202019.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=800",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=800"
         ],
         resultImages: [
-            "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=1200&q=70",
-            "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=70"
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Notebook%20with%20pen%2C%20August%2C%202019.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=1200",
+            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=1200"
         ],
         feedbacks: [
             "Иногда пауза —\nэто тоже действие.\nЕсли сейчас важно не торопиться,\nэто нормально.\n\nТы можешь вернуться позже,\nкогда появится отклик.\nСистема сохранит твой прогресс.",
@@ -1199,7 +1199,7 @@ const screens = [
             "Что-то откликнулось внутри?"
         ],
         finalShareText:
-            "Можно поделиться с человеком, которому это может быть интересно.\nИ вам будет что обсудить потом.",
+            "Можно поделиться с человеком, которому желаешь успеха.\nВам будет что обсудить потом.",
         shareUrl: "https://abundance-checkup.vercel.app/",
         shareMessage: "Прошёл(ла) чек‑ап Abundance Checkup. Посмотри, может быть откликнется.",
         shareHint: "Ссылка скопирована.",
