@@ -452,20 +452,12 @@ const screens = [
             "Тревога о будущем"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=1200"
+            "https://i.pinimg.com/736x/b9/84/29/b9842922b53d2a83db934d8707f1b9b1.jpg",
+            "https://i.pinimg.com/1200x/bb/8c/ff/bb8cff2a708584a7b858ac406f9e4575.jpg",
+            "https://i.pinimg.com/736x/7e/93/bb/7e93bb9bbf9e2cc6950d3e474812bd93.jpg",
+            "https://i.pinimg.com/1200x/dd/71/69/dd7169d8a141099cace3cd0ce5a9db50.jpg",
+            "https://i.pinimg.com/736x/dd/39/94/dd399464b7ee8caa0d30065e21d86582.jpg",
+            "https://i.pinimg.com/736x/9f/b0/ff/9fb0ffef2d5a4b0a617ecfab04cb42bc.jpg"
         ],
         feedbacks: [
             "Усталость и напряжение — состояние, когда всё держится на усилии.\nХочется выдохнуть, снизить давление\nи вернуть себе ресурс.",
