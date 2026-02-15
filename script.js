@@ -452,7 +452,7 @@ const screens = [
             "Тревога о будущем"
         ],
         images: [
-            "https://i.pinimg.com/736x/b9/84/29/b9842922b53d2a83db934d8707f1b9b1.jpg",
+            "https://i.pinimg.com/1200x/c1/bd/cd/c1bdcd2c6f2ac51d7a18126d232e9bcd.jpg",
             "https://i.pinimg.com/1200x/bb/8c/ff/bb8cff2a708584a7b858ac406f9e4575.jpg",
             "https://i.pinimg.com/736x/7e/93/bb/7e93bb9bbf9e2cc6950d3e474812bd93.jpg",
             "https://i.pinimg.com/1200x/dd/71/69/dd7169d8a141099cace3cd0ce5a9db50.jpg",
@@ -615,20 +615,12 @@ const screens = [
             "Потерять себя"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Factory%20Automation%20Robotics%20Palettizing%20Bread.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Finish%20Line%20%2816199071533%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Factory%20Automation%20Robotics%20Palettizing%20Bread.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Abandoned%20House%20%28129401613%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Empty%20bench%20%2814825538372%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Finish%20Line%20%2816199071533%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20Theater%20Mask%20%2848465400462%29.jpg?width=1200"
+            "https://i.pinimg.com/736x/81/1a/5b/811a5be4945852ab0c8b659012281249.jpg",
+            "https://i.pinimg.com/736x/a7/fa/31/a7fa31ededf783525aaef3fdc0e6c813.jpg",
+            "https://i.pinimg.com/736x/9f/16/83/9f16830597a9e609d9419b6fcf806c27.jpg",
+            "https://i.pinimg.com/736x/64/e0/cd/64e0cd44dc7b603ccfde324d9999a5a9.jpg",
+            "https://i.pinimg.com/736x/4e/73/54/4e73540dbedfc3c08446001136b40d7a.jpg",
+            "https://i.pinimg.com/736x/cd/c7/e2/cdc7e26ae592984bb70343ce6b76cc4f.jpg"
         ],
         feedbacks: [
             "Мир меняется всё быстрее,\nи впереди много тумана.\nНеясно, что будет дальше,\nкакие правила останутся,\nна что можно опереться.\n\nЭто ощущение отсутствия ориентиров\nи постоянной нестабильности.",
@@ -645,8 +637,7 @@ const screens = [
                     "Неясный план",
                     "Смена правил",
                     "Чувство «я отстаю»",
-                    "Риск ошибиться",
-                    "Слишком много вариантов"
+                    "Риск ошибиться"
                 ],
                 hint: "Ясность — это то,\nчто можно постепенно выстраивать ➡️"
             },
