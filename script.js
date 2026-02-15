@@ -115,14 +115,6 @@ const screens = [
             "https://i.pinimg.com/1200x/7b/56/2d/7b562ddcfbd1ea081d4eff26ed738b59.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=800"
         ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%20wellness%20practice%20at%20sunset.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Couple%20holding%20hands%20%2828619046534%29.jpg?width=1200",
-            "https://i.pinimg.com/736x/b7/8b/fb/b78bfb047759f01727ef60733a6f3b7b.jpg",
-            "https://i.pinimg.com/1200x/7b/56/2d/7b562ddcfbd1ea081d4eff26ed738b59.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=1200"
-        ],
         feedbacks: [
             "Здоровье и физическое состояние — про опору в теле.\nЕсть чувство, что без запаса сил остальное даётся тяжелее.\nХочется устойчивости, лёгкости и уверенности в себе.",
             "Яркость жизни — это вкус момента.\nВажны движение, впечатления и ощущения, чтобы жизнь не откладывалась.\nЭто живой отклик на то, что происходит.",
@@ -206,14 +198,6 @@ const screens = [
             "https://i.pinimg.com/736x/17/31/09/173109147d260b33e2b58a175fc3a4a2.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=800",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Path%20and%20mountains.jpg?width=800",
-            "https://i.pinimg.com/736x/5e/9a/c9/5e9ac9c30bc5996650cf9bdd062232a0.jpg",
-            "https://i.pinimg.com/736x/f2/ba/2b/f2ba2b2bb2be7d427e5c2df30852d7e2.jpg"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Billionaires%20NY.jpg?width=1200",
-            "https://i.pinimg.com/736x/17/31/09/173109147d260b33e2b58a175fc3a4a2.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Path%20and%20mountains.jpg?width=1200",
             "https://i.pinimg.com/736x/5e/9a/c9/5e9ac9c30bc5996650cf9bdd062232a0.jpg",
             "https://i.pinimg.com/736x/f2/ba/2b/f2ba2b2bb2be7d427e5c2df30852d7e2.jpg"
         ],
@@ -379,23 +363,15 @@ const screens = [
             "Положение и возможности",
             "Комфорт и позитив",
             "Общие интересы",
-            "Энергичность и амбициозность"
+            "Амбициозность и деловая хватка"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Light%20through%20open%20door.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Light%20through%20open%20door.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=1200"
+            "https://i.pinimg.com/1200x/41/b9/d4/41b9d4e52c41370c159687a29fe46911.jpg",
+            "https://i.pinimg.com/1200x/62/bc/84/62bc8488ddf04fb8773a5c606dd1dac4.jpg",
+            "https://i.pinimg.com/736x/09/e6/19/09e619e918bac4fb852a127e5c79a4dc.jpg",
+            "https://i.pinimg.com/1200x/e1/41/08/e1410861055bec5e1ce186e12f4efc0d.jpg",
+            "https://i.pinimg.com/1200x/71/e7/e2/71e7e2fa7b57ed0d8e036192b02b0dbd.jpg",
+            "https://i.pinimg.com/736x/0b/87/dc/0b87dc9e5bd86847568b0def579d29d1.jpg"
         ],
         feedbacks: [
             "Ощущение свободы делает жизнь шире.\nЭто притягивает и вдохновляет,\nдаёт воздух и желание идти своим путём.",
