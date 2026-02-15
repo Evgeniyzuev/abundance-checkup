@@ -534,7 +534,7 @@ const screens = [
             "https://i.pinimg.com/1200x/aa/d7/29/aad7293338e175aebb46ab9fa66ce20b.jpg",
             "https://i.pinimg.com/736x/28/1b/6a/281b6aeb694eda98bdf88bc40e5e368e.jpg",
             "https://i.pinimg.com/736x/84/40/5d/84405dfba950c2281f0e929feabd40a3.jpg",
-            "https://i.pinimg.com/1200x/33/1e/87/331e870d3a9a28a62103ecee0633a8c9.jpg"
+            "https://i.pinimg.com/736x/3b/42/5c/3b425c51b008f21713c964f5ed471a10.jpg"
         ],
         feedbacks: [
             "Внутренний покой — это жизнь без постоянной тревоги.\nХочется устойчивости, ясности и своего ритма.\nЭто про тихую уверенность и ощущение опоры.",
@@ -702,10 +702,10 @@ const screens = [
     {
         id: 10,
         type: "question",
-        title: "Что сейчас больше всего мешает тебе продвинуться?",
+        title: "Чего тебе не хватает сейчас чтобы продвинуться?",
         subtitle: "Иногда достаточно одного недостающего элемента.",
         options: [
-            "Правильные люди",
+            "Нужные люди",
             "Ресурсы",
             "Первый результат",
             "Компетенции",
@@ -713,20 +713,12 @@ const screens = [
             "Ясность"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Spotlights%20on%20a%20stage.png?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Spotlights%20on%20a%20stage.png?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=1200"
+            "https://i.pinimg.com/1200x/4d/51/68/4d516805a88eecd9429ee4cf42fabe1c.jpg",
+            "https://i.pinimg.com/736x/1c/d1/1b/1cd11b6832db0351051817623201db9f.jpg",
+            "https://i.pinimg.com/1200x/60/05/5c/60055c4e07a7425d4ce1dbbfb6445b70.jpg",
+            "https://i.pinimg.com/1200x/2d/a4/10/2da410cd626e7f2ab38319d197733872.jpg",
+            "https://i.pinimg.com/736x/42/7e/80/427e804f2037542a2c9af478f1fbab84.jpg",
+            "https://i.pinimg.com/1200x/94/18/66/941866eb84b7eed0d04527afda46af86.jpg"
         ],
         feedbacks: [
             "Тебе важна среда, где есть опора и движение.\nКогда рядом люди с похожим маршрутом,\nстановится легче держать фокус и ритм.\n\nЭто не про «зависеть»,\nа про здоровую поддержку.\nОкружение действительно ускоряет.",
@@ -772,7 +764,6 @@ const screens = [
                 options: [
                     "Технического",
                     "Коммуникационного",
-                    "Стратегического",
                     "Системного",
                     "Продаж/монетизации"
                 ],
