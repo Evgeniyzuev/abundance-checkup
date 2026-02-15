@@ -905,19 +905,11 @@ const screens = [
         ],
         images: [
             "https://i.pinimg.com/736x/ae/c5/d4/aec5d4fb1426863ecb4ba0fb2fd058bd.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=800",
+            "https://i.pinimg.com/1200x/1b/a3/23/1ba32332729d52f00a3954cb2555d196.jpg",
             "https://i.pinimg.com/736x/8b/71/e6/8b71e605f2542591e6ede31978ec2dcf.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Piggy%20bank%20%281120756160%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20lobby%20%2813634874233%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=800"
-        ],
-        resultImages: [
-            "https://i.pinimg.com/736x/ae/c5/d4/aec5d4fb1426863ecb4ba0fb2fd058bd.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200",
-            "https://i.pinimg.com/736x/8b/71/e6/8b71e605f2542591e6ede31978ec2dcf.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Piggy%20bank%20%281120756160%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20lobby%20%2813634874233%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=1200"
+            "https://i.pinimg.com/736x/d1/5d/be/d15dbed8d1d79f2ad90c7ad1b7afb5ec.jpg",
+            "https://i.pinimg.com/1200x/8e/59/1c/8e591cdf4522c53a0e39a9373a536924.jpg",
+            "https://i.pinimg.com/1200x/f2/d7/db/f2d7db137550ada9948ef918926ef7f8.jpg"
         ],
         feedbacks: [
             "Представь, как забираешь свой новый автомобиль —\nименно тот, который ты хочешь.\nВпервые садишься за руль\nи чувствуешь: это реально,\nу тебя получилось.\n\nЭто про свободу движения,\nконтроль над временем\nи удовольствие от пути.\n\nТакие желания хорошо превращаются\nв конкретные финансовые цели.",
@@ -934,8 +926,7 @@ const screens = [
                     "Именно тот автомобиль",
                     "Комфорт и удобство",
                     "Бренд и статус",
-                    "Драйв и скорость",
-                    "Безопасность"
+                    "Драйв и скорость"
                 ],
                 hint: "Чёткая цель ускоряет движение ➡️"
             },
@@ -944,7 +935,6 @@ const screens = [
                 options: [
                     "Новые места",
                     "Свобода и спонтанность",
-                    "Комфорт и сервис",
                     "Компания",
                     "Перезагрузка"
                 ],
@@ -956,8 +946,7 @@ const screens = [
                     "Своё пространство",
                     "Локация",
                     "Уют и дизайн",
-                    "Безопасность",
-                    "Инвестиция"
+                    "Безопасность"
                 ],
                 hint: "Когда есть ясность, решение приходит легче ➡️"
             },
@@ -965,10 +954,9 @@ const screens = [
                 question: "Что даёт финансовая подушка?",
                 options: [
                     "Спокойствие",
-                    "Подушка на 6–12 месяцев",
-                    "Свободу решений",
-                    "Закрыть долги",
-                    "Инвестиции"
+                    "Решение проблем",
+                    "Свободу выбора",
+                    "Закрыть долги"
                 ],
                 hint: "Безопасность — основа роста ➡️"
             },
@@ -978,8 +966,7 @@ const screens = [
                     "Качество и сервис",
                     "Свобода выбирать",
                     "Эстетика и детали",
-                    "Статус и признание",
-                    "Время для себя"
+                    "Статус и признание"
                 ],
                 hint: "Качество жизни рождается из устойчивости ➡️"
             },
@@ -988,8 +975,7 @@ const screens = [
                 options: [
                     "Свой сценарий",
                     "Новый опыт",
-                    "Забота о близких",
-                    "Переезд",
+                    "Забота о близких", 
                     "Творческий проект"
                 ],
                 hint: "Уникальные цели тоже можно выстроить ➡️"
@@ -1006,25 +992,17 @@ const screens = [
             "Сделать паузу",
             "Разобраться глубже",
             "Проговорить",
-            "Зафиксировать",
+            "Зафиксировать план",
             "Наметить шаги",
             "Начать сейчас"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Notebook%20with%20pen%2C%20August%2C%202019.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Friends%20sharing%20a%20conversation%20%2840546574695%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Notebook%20with%20pen%2C%20August%2C%202019.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Starting%20Line%20of%20the%202016%20Falmouth%20Road%20Race.jpg?width=1200"
+            "https://i.pinimg.com/736x/a1/ce/ff/a1ceff0a78465c0eb3c472ba02fbfe79.jpg",
+            "https://i.pinimg.com/1200x/91/7f/81/917f818cba22907a5ed31730cd2355bb.jpg",
+            "https://i.pinimg.com/736x/c8/39/15/c839154f4c62dddd9584d4d93658a940.jpg",
+            "https://i.pinimg.com/736x/ec/fb/a6/ecfba66639ca40f6d3063bc731711ac2.jpg",
+            "https://i.pinimg.com/1200x/af/08/f2/af08f2a1ed70e2c60f6f8119d86a5990.jpg",
+            "https://i.pinimg.com/736x/e2/74/76/e27476f59a4c899872cc0612cd3e8b85.jpg"
         ],
         feedbacks: [
             "Иногда пауза —\nэто тоже действие.\nЕсли сейчас важно не торопиться,\nэто нормально.\n\nТы можешь вернуться позже,\nкогда появится отклик.\nСистема сохранит твой прогресс.",
@@ -1041,8 +1019,7 @@ const screens = [
                     "День тишины",
                     "Неделя без решений",
                     "Переключиться на отдых",
-                    "Просто не спешить",
-                    "Вернуться позже"
+                    "Просто не спешить"
                 ],
                 hint: "Пауза тоже может быть осознанной ➡️"
             },
@@ -1051,7 +1028,6 @@ const screens = [
                 options: [
                     "Как устроена система",
                     "Сколько это занимает времени",
-                    "Какие есть уровни",
                     "С чего начать",
                     "Что даст результат"
                 ],
@@ -1074,19 +1050,17 @@ const screens = [
                     "Короткая заметка",
                     "Список мыслей",
                     "План на неделю",
-                    "Голосовые заметки",
-                    "Визуальная схема"
+                    "Голосовые заметки"
                 ],
                 hint: "Любой формат — уже шаг ➡️"
             },
             {
                 question: "Какие шаги важнее?",
                 options: [
-                    "Самые простые",
-                    "Самые полезные",
-                    "Самые быстрые",
+                    "Только правильные",
+                    "Быстрые",
                     "Самые понятные",
-                    "Самые вдохновляющие"
+                    "Вдохновляющие"
                 ],
                 hint: "Путь становится легче, когда он разбит ➡️"
             },
@@ -1095,7 +1069,6 @@ const screens = [
                 options: [
                     "Мини‑действие на 5 минут",
                     "Проверка идеи",
-                    "Создание плана",
                     "Один звонок",
                     "Один конкретный шаг сегодня"
                 ],
