@@ -108,12 +108,12 @@ const screens = [
             "Баланс и гармония"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%20wellness%20practice%20at%20sunset.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Couple%20holding%20hands%20%2828619046534%29.jpg?width=800",
+            "https://i.pinimg.com/736x/21/6e/30/216e303bf15d9053f3f2e889c1b0466a.jpg",
+            "https://i.pinimg.com/736x/84/0d/13/840d13bcc3259734bca9cc8d5fa6473a.jpg",
+            "https://i.pinimg.com/1200x/b7/93/5a/b7935a5cd84d7c3f85cc90d159a2c37f.jpg",
             "https://i.pinimg.com/736x/b7/8b/fb/b78bfb047759f01727ef60733a6f3b7b.jpg",
             "https://i.pinimg.com/1200x/7b/56/2d/7b562ddcfbd1ea081d4eff26ed738b59.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=800"
+            "https://i.pinimg.com/1200x/78/93/93/789393c64d8f07128448e81a81a04f2b.jpg"
         ],
         feedbacks: [
             "Здоровье и физическое состояние — про опору в теле.\nЕсть чувство, что без запаса сил остальное даётся тяжелее.\nХочется устойчивости, лёгкости и уверенности в себе.",
@@ -194,10 +194,10 @@ const screens = [
             "Инструмент возможностей"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Billionaires%20NY.jpg?width=800",
+            "https://i.pinimg.com/736x/1d/4a/32/1d4a3273fc6b00b30c56c04f80cd0c76.jpg",
             "https://i.pinimg.com/736x/17/31/09/173109147d260b33e2b58a175fc3a4a2.jpg",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Path%20and%20mountains.jpg?width=800",
+            "https://i.pinimg.com/736x/ef/4d/66/ef4d664405ee2b7227ad8e21ac06e1c0.jpg",
+            "https://i.pinimg.com/1200x/88/45/e1/8845e10819b88966af69614fe7578061.jpg",
             "https://i.pinimg.com/736x/5e/9a/c9/5e9ac9c30bc5996650cf9bdd062232a0.jpg",
             "https://i.pinimg.com/736x/f2/ba/2b/f2ba2b2bb2be7d427e5c2df30852d7e2.jpg"
         ],
@@ -1334,7 +1334,7 @@ function showResult(screen, optionIndex) {
 function showFinal() {
     const finalScreen = screens[currentIndex];
     resultImage.src =
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200";
+        "https://i.pinimg.com/736x/e9/86/15/e9861559a6d2886defb9a9f6bc1f5c88.jpg";
     resultImage.alt = "Финальный экран";
     resultImage.loading = "lazy";
     resultImage.decoding = "async";
