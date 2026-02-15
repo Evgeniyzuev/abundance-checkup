@@ -1140,30 +1140,12 @@ let currentIndex = 0;
 let pendingAdvance = null;
 
 const fallbackImages = [
-    {
-        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=600",
-        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200"
-    },
-    {
-        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=600",
-        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=1200"
-    },
-    {
-        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=600",
-        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=1200"
-    },
-    {
-        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=600",
-        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=1200"
-    },
-    {
-        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=600",
-        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200"
-    },
-    {
-        card: "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=600",
-        result: "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200"
-    }
+    "https://i.pinimg.com/736x/44/86/74/44867470c173b75ccb1bcfd74f6e6e1a.jpg",
+    "https://i.pinimg.com/736x/83/cb/dd/83cbdd8cd286536badca884e9d7426b0.jpg",
+    "https://i.pinimg.com/1200x/eb/74/26/eb7426d4a58b0c9705b09b910d0e4e61.jpg",
+    "https://i.pinimg.com/736x/1c/c7/40/1cc740e8d4c466fd85745d7ef1e77d0a.jpg",
+    "https://i.pinimg.com/736x/2c/e9/61/2ce961ea92dad0d3ff5654ba4db5eb94.jpg",
+    "https://i.pinimg.com/736x/a2/01/df/a201df71999226df1561a0b3fce765e7.jpg"
 ];
 
 const reactionEmojis = ["❤️", "😍", "🥰", "🥳", "💵", "😱", "😰"];
@@ -1252,7 +1234,7 @@ function renderQuestionScreen() {
         const fallback = fallbackImages[optionIndex];
         const cardImage =
             (screen.images && screen.images[optionIndex]) ||
-            (fallback && fallback.card) ||
+            fallback ||
             "";
         card.innerHTML = `
             <img src="${cardImage}" alt="${label}" loading="lazy" decoding="async">
@@ -1285,7 +1267,7 @@ function showResult(screen, optionIndex) {
     resultImage.src =
         (screen.resultImages && screen.resultImages[optionIndex]) ||
         (screen.images && screen.images[optionIndex]) ||
-        (fallback && (fallback.result || fallback.card)) ||
+        fallback ||
         "";
     resultImage.alt = title;
     resultImage.loading = "lazy";
