@@ -529,20 +529,12 @@ const screens = [
             "Оставить след"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20Sunset%20%28157351571%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/RoadMap.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=1200"
+            "https://i.pinimg.com/736x/c0/60/21/c060215015e6d46a234cb4127af3237f.jpg",
+            "https://i.pinimg.com/1200x/53/3c/cf/533ccff4221b92b4e32761aabd430c22.jpg",
+            "https://i.pinimg.com/1200x/aa/d7/29/aad7293338e175aebb46ab9fa66ce20b.jpg",
+            "https://i.pinimg.com/736x/28/1b/6a/281b6aeb694eda98bdf88bc40e5e368e.jpg",
+            "https://i.pinimg.com/736x/84/40/5d/84405dfba950c2281f0e929feabd40a3.jpg",
+            "https://i.pinimg.com/1200x/33/1e/87/331e870d3a9a28a62103ecee0633a8c9.jpg"
         ],
         feedbacks: [
             "Внутренний покой — это жизнь без постоянной тревоги.\nХочется устойчивости, ясности и своего ритма.\nЭто про тихую уверенность и ощущение опоры.",
