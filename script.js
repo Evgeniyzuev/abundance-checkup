@@ -288,7 +288,7 @@ const screens = [
         title: "Как ты относишься к тому,\nкак сегодня устроен мир и деньги?",
         subtitle: "Не «правильно», а как ты это чувствуешь.",
         options: [
-            "Подняться выше",
+            "Главное одняться выше",
             "Чувство несправедливости",
             "Своя территория",
             "Общее процветание",
@@ -296,28 +296,20 @@ const screens = [
             "Менять правила"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Demonstrator%20with%20sign%20and%20crowd%20in%20background.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Cottage%20house.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/World%20Archery%20target.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Chess%20pieces.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Demonstrator%20with%20sign%20and%20crowd%20in%20background.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Cottage%20house.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Hands%20Together%20%287270379440%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/World%20Archery%20target.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Chess%20pieces.jpg?width=1200"
+            "https://i.pinimg.com/1200x/fd/6f/c5/fd6fc588253b50e0510778591912bbd5.jpg",
+            "https://i.pinimg.com/736x/64/b3/dd/64b3dd63954aa54dcb5b74de13acffaa.jpg",
+            "https://i.pinimg.com/1200x/97/8a/0c/978a0ced939ed516d2b0cac75d8d9fd7.jpg",
+            "https://i.pinimg.com/736x/1b/61/1d/1b611df6b6a18db2ca67f78b1b0db3d7.jpg",
+            "https://i.pinimg.com/1200x/2c/99/a8/2c99a847a740b21d9bcc4ce2b6a33588.jpg",
+            "https://i.pinimg.com/1200x/e5/fb/b2/e5fbb2d7f1ab4c73147cbb4272c707ae.jpg"
         ],
         feedbacks: [
-            "Подняться выше — про стремление к сильной позиции.\nЕсть желание уменьшить ограничения и увеличить доступ к возможностям.\nВнутри — настрой на рост и расчёт.",
+            "Подняться выше — про стремление к сильной позиции.\nЕсть желание уменьшить ограничения и уполучить большие возможности.\nВнутри — настрой на рост и расчёт.",
             "Чувство несправедливости — про чувствительность к перекосам.\nОщущается, что правила работают не одинаково.\nЕсть переживание и желание ясности.",
             "Своя территория — про внутренний покой и своё пространство.\nХочется меньше соревнования и больше спокойствия.\nВажно сохранять свой ритм и границы.",
-            "Общее процветание — про заботу об общем поле.\nВажно, чтобы рост не был за счёт других.\nЕсть надежда на более гармоничные правила.",
+            "Общее процветание — про заботу об общем поле.\nВажно, чтобы рост не был за счёт других.\nЛучшее общество состоит из людей которые заботятся об обществе.",
             "Фокус на своём — про концентрацию на зоне влияния.\nХочется меньше распыления и больше управляемости.\nЭто про ясность, фокус и личную ответственность.",
-            "Менять правила — про участие в новых моделях.\nЕсть интерес быть частью изменений, а не только адаптироваться.\nЭто про влияние и участие."
+            "Менять правила — про участие в новых моделях.\nЕсть интерес быть частью изменений, а не только адаптироваться.\nЭто про развитие и свободу."
         ],
         miniChoices: [
             {
