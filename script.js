@@ -774,7 +774,6 @@ const screens = [
                 options: [
                     "В профессиональной среде",
                     "В интернете",
-                    "В нужном сообществе",
                     "Для клиентов",
                     "Для партнёров"
                 ],
@@ -786,7 +785,6 @@ const screens = [
                     "С чего начать",
                     "Куда двигаться дальше",
                     "Что из этого моё",
-                    "Как связать шаги",
                     "Где точка роста"
                 ],
                 hint: "Ясность часто появляется\nв процессе движения ➡️"
@@ -808,20 +806,12 @@ const screens = [
             "Главное — желание"
         ],
         images: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=800"
-        ],
-        resultImages: [
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Brainstorming%20%2816819367408%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Coins.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20books.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Trophy%20%28CH%2018169223%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Compass%20%281430707180%29.jpg?width=1200"
+            "https://i.pinimg.com/736x/32/4a/1b/324a1ba08f40a65f6eb4d2ac6ebe08a2.jpg",
+            "https://i.pinimg.com/1200x/4b/df/63/4bdf63e6c194cd3620b1e69594def9e6.jpg",
+            "https://i.pinimg.com/736x/d2/97/3d/d2973da08c0b9d1172a7931dbb18b520.jpg",
+            "https://i.pinimg.com/1200x/78/e7/2f/78e72f6e5f77c6858bf8fb39801014d0.jpg",
+            "https://i.pinimg.com/736x/f6/4b/f7/f64bf7de2e8b974a7c0b3bc56d8ee331.jpg",
+            "https://i.pinimg.com/736x/12/b8/5e/12b85e3f8fef1554bd9c4b1321c241a6.jpg"
         ],
         feedbacks: [
             "Время и энергия нужны в любом деле.\nЕсли они есть — это уже опора.\n\nВажно понимать,\nво что именно их вкладывать,\nчтобы движение шло без выгорания.\n\nТемп можно выстроить так,\nчтобы рост был устойчивым,\nа не случайным.",
