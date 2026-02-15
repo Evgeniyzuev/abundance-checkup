@@ -2,20 +2,20 @@ const screens = [
     {
         id: 1,
         type: "intro",
-        title: "Кто определяет твое будещее?",
+        title: "Кто определяет твоё будущее?",
         subtitle:
-            "\nПредставь свою настоющую жизнь,\nгде каждый вдох это легкость и радость\n\nЭто короткий чек-ап покажет, куда ты движешься  \n И как выбирать свой настоящий путь\n\n Здесь нет правильных или неправильных ответов.\n\nВыбирай то что тебе ближе. "
+            "\nПредставь свою настоящую жизнь,\nгде каждый вдох — это лёгкость и радость.\n\nЭтот короткий чек‑ап покажет, куда ты движешься,\nи поможет выбрать свой путь.\n\nЗдесь нет правильных или неправильных ответов.\n\nВыбирай то, что тебе ближе."
     },
     {
         id: 2,
         type: "question",
         title: "Какой источник дохода выбираешь?",
-        subtitle: "Не как «правильно», а как ты чувствуешь",
+        subtitle: "Не «как правильно», а как ты чувствуешь.",
         options: [
             "Карьерный рост в компании",
             "Стабильная работа + комфорт",
             "Любимое дело и работа на себя",
-            "Известность, знаменитость",
+            "Известность и узнаваемость",
             "Свой бизнес и проекты",
             "Другой путь"
         ],
@@ -111,16 +111,16 @@ const screens = [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%20wellness%20practice%20at%20sunset.jpg?width=800",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=800",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Couple%20holding%20hands%20%2828619046534%29.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=800",
+            "https://i.pinimg.com/736x/b7/8b/fb/b78bfb047759f01727ef60733a6f3b7b.jpg",
+            "https://i.pinimg.com/1200x/7b/56/2d/7b562ddcfbd1ea081d4eff26ed738b59.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=800"
         ],
         resultImages: [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Yoga%20wellness%20practice%20at%20sunset.jpg?width=1200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain%20landscape%20%2821827581301%29.jpg?width=1200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Couple%20holding%20hands%20%2828619046534%29.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20Room.JPG?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Earthen%20Potter%20Hands.jpg?width=1200",
+            "https://i.pinimg.com/736x/b7/8b/fb/b78bfb047759f01727ef60733a6f3b7b.jpg",
+            "https://i.pinimg.com/1200x/7b/56/2d/7b562ddcfbd1ea081d4eff26ed738b59.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Meditating%20In%20Nature%20%28Unsplash%29.jpg?width=1200"
         ],
         feedbacks: [
@@ -192,34 +192,34 @@ const screens = [
         id: 4,
         type: "question",
         title: "Что для тебя деньги?",
-        subtitle: "В первую очередь это...",
+        subtitle: "В первую очередь это…",
         options: [
             "Награда за сложную работу",
-            "Выигрыш и удача",
+            "Победа",
             "Свобода и интерес",
-            "Главная цель",
+            "Деньги как цель",
             "Стабильность и безопасность",
-            "Деньги как инструмент возможностей"
+            "Инструмент возможностей"
         ],
         images: [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Billionaires%20NY.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Casino%20Dice%20%2811275288753%29.jpg?width=800",
+            "https://i.pinimg.com/736x/17/31/09/173109147d260b33e2b58a175fc3a4a2.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=800",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Path%20and%20mountains.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Light%20through%20open%20door.jpg?width=800"
+            "https://i.pinimg.com/736x/5e/9a/c9/5e9ac9c30bc5996650cf9bdd062232a0.jpg",
+            "https://i.pinimg.com/736x/f2/ba/2b/f2ba2b2bb2be7d427e5c2df30852d7e2.jpg"
         ],
         resultImages: [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Billionaires%20NY.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Casino%20Dice%20%2811275288753%29.jpg?width=1200",
+            "https://i.pinimg.com/736x/17/31/09/173109147d260b33e2b58a175fc3a4a2.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Freedom%20%28242834275%29.jpeg?width=1200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Path%20and%20mountains.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Stairs%20%28260496903%29.jpeg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Light%20through%20open%20door.jpg?width=1200"
+            "https://i.pinimg.com/736x/5e/9a/c9/5e9ac9c30bc5996650cf9bdd062232a0.jpg",
+            "https://i.pinimg.com/736x/f2/ba/2b/f2ba2b2bb2be7d427e5c2df30852d7e2.jpg"
         ],
         feedbacks: [
             "Награда за сложную работу — про справедливый обмен.\nХочется, чтобы усилия и ответственность были признаны.\nДеньги воспринимаются как подтверждение ценности вклада.",
-            "Выигрыш и удача — про возможность резкого поворота.\nПривлекают моменты, когда может «сыграть» шанс.\nЕсть чувство готовности к скачку.",
+            "Победа — это драйв и вкус вершины.\nХочется игры на высоких ставках\nи ощущения «я смог(ла)».\nДеньги здесь — как метка уровня\nи силы движения.",
             "Свобода и интерес — это про выбор и живую жизнь.\nНе хочется менять время только на цифры.\nДеньги — средство поддерживать желаемый стиль жизни.",
             "Главная цель — про фокус и направление.\nЕсть готовность идти далеко, если в пути есть смысл.\nДеньги могут быть ресурсом для движения, а не центром.",
             "Стабильность и безопасность дают предсказуемость.\nВажно видеть постепенный рост и понимать, что всё под контролем.\nДеньги приносят спокойствие и устойчивость.",
@@ -242,7 +242,7 @@ const screens = [
                     "Свобода от ограничений",
                     "Новый уровень жизни"
                 ],
-                hint: "Системы могут создавать\nбольше возможностей для таких переходов ➡️"
+                hint: "Если прежние правила не дают роста,\nможно менять игру ➡️"
             },
             {
                 question: "Что сейчас важнее?",
@@ -315,7 +315,7 @@ const screens = [
             "Подняться выше — про стремление к сильной позиции.\nЕсть желание уменьшить ограничения и увеличить доступ к возможностям.\nВнутри — настрой на рост и расчёт.",
             "Чувство несправедливости — про чувствительность к перекосам.\nОщущается, что правила работают не одинаково.\nЕсть переживание и желание ясности.",
             "Своя территория — про внутренний покой и своё пространство.\nХочется меньше соревнования и больше спокойствия.\nВажно сохранять свой ритм и границы.",
-            "Общее процветание — про заботу о общем поле.\nВажно, чтобы рост не был за счёт других.\nЕсть надежда на более гармоничные правила.",
+            "Общее процветание — про заботу об общем поле.\nВажно, чтобы рост не был за счёт других.\nЕсть надежда на более гармоничные правила.",
             "Фокус на своём — про концентрацию на зоне влияния.\nХочется меньше распыления и больше управляемости.\nЭто про ясность, фокус и личную ответственность.",
             "Менять правила — про участие в новых моделях.\nЕсть интерес быть частью изменений, а не только адаптироваться.\nЭто про влияние и участие."
         ],
@@ -478,7 +478,7 @@ const screens = [
         options: [
             "Усталость и напряжение",
             "Поиск и неопределённость",
-            "Что-то мешает осуществить планы",
+            "Что-то мешает воплотить планы",
             "Ожидание возможности",
             "Спокойствие и принятие",
             "Тревога о будущем"
@@ -657,10 +657,10 @@ const screens = [
         options: [
             "Перемены и неизвестность",
             "Быть заменённым",
-            "Потерять то что имеешь",
+            "Потерять то, что имеешь",
             "Одиночество",
             "Не достичь успеха",
-            "Стать плохим человеком"
+            "Потерять себя"
         ],
         images: [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20Fog%20%28113979787%29.jpeg?width=800",
@@ -684,7 +684,7 @@ const screens = [
             "Когда есть что терять,\nкаждое изменение ощущается остро.\nМожно лишиться накопленного,\nпривычного уровня жизни или опоры.\n\nЭто переживание за сохранность\nи чувство незащищённости.",
             "Одиночество пугает тишиной.\nЕсть риск остаться без близких,\nбез «своих» людей и понимания.\n\nЭто про нехватку связи\nи ощущение пустоты рядом.",
             "Можно много стараться,\nно так и не дойти до результата.\nПланка растёт,\nвремени становится меньше.\n\nЭто тревога о нереализованности\nи упущенных возможностях.",
-            "Есть боязнь потерять внутренние ориентиры\nи стать не тем человеком.\nОшибки, давление, цинизм\nмогут размыть ценности.\n\nЭто беспокойство о личной целостности\nи собственном выборе."
+            "Есть страх потерять внутренние ориентиры\nи перестать быть собой.\nОшибки и давление\nмогут размыть ценности.\n\nЭто про личную целостность\nи верность собственному выбору."
         ],
         miniChoices: [
             {
@@ -867,11 +867,11 @@ const screens = [
         subtitle: "Даже если это пока кажется небольшим.",
         options: [
             "Время и энергия",
-            "Захватывающая Идея",
+            "Захватывающая идея",
             "Капитал для старта",
-            "Ценные Навыки",
-            "Подходящий Опыт",
-            "Главное - желание"
+            "Ценные навыки",
+            "Подходящий опыт",
+            "Главное — желание"
         ],
         images: [
             "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=800",
@@ -895,7 +895,7 @@ const screens = [
             "Финансовый ресурс даёт свободу выбора.\nОн позволяет ускоряться\nи не ждать «идеальных условий».\n\nЭто не про деньги ради денег,\nа про возможность инвестировать\nв себя, шаги и систему.",
             "Компетенции — это реальная ценность.\nНавыки остаются с тобой,\nдаже когда меняются правила.\n\nЕсли есть сильная сторона,\nеё можно превращать в опору\nи источник уверенности.",
             "Опыт — это доказательство,\nчто путь уже был пройден.\n\nТо, что получилось однажды,\nостаётся как знание:\n«я умею доходить до результата».\n\nЭта база даёт спокойствие\nи внутреннюю опору.",
-            "Основа — это структура,\nкоторая уже держит часть твоей жизни.\nРабота, бизнес или проект\nдают устойчивость и точку опоры.\n\nОтсюда легче делать следующий шаг\nи собирать новое без хаоса."
+            "Желание — это внутренний двигатель.\nЕсли оно есть, путь находится быстрее.\n\nМожно начать с маленьких шагов,\nчтобы желание стало движением,\nа движение — результатом."
         ],
         miniChoices: [
             {
@@ -980,17 +980,17 @@ const screens = [
             "Другое / свой вариант"
         ],
         images: [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg/960px-2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg",
+            "https://i.pinimg.com/736x/ae/c5/d4/aec5d4fb1426863ecb4ba0fb2fd058bd.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=800",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=800",
+            "https://i.pinimg.com/736x/8b/71/e6/8b71e605f2542591e6ede31978ec2dcf.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Piggy%20bank%20%281120756160%29.jpg?width=800",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20lobby%20%2813634874233%29.jpg?width=800",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=800"
         ],
         resultImages: [
-            "https://upload.wikimedia.org/wikipedia/commons/8/8a/2020_Mercedes-Benz_GLS_450%2C_front_12.24.19.jpg",
+            "https://i.pinimg.com/736x/ae/c5/d4/aec5d4fb1426863ecb4ba0fb2fd058bd.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Airplane%20Wing.jpg?width=1200",
-            "https://commons.wikimedia.org/wiki/Special:FilePath/Living%20room%20%2815246771173%29.jpg?width=1200",
+            "https://i.pinimg.com/736x/8b/71/e6/8b71e605f2542591e6ede31978ec2dcf.jpg",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Piggy%20bank%20%281120756160%29.jpg?width=1200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel%20lobby%20%2813634874233%29.jpg?width=1200",
             "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20on%20the%20Beach%20%2835074409645%29.jpg?width=1200"
@@ -1104,7 +1104,7 @@ const screens = [
         ],
         feedbacks: [
             "Иногда пауза —\nэто тоже действие.\nЕсли сейчас важно не торопиться,\nэто нормально.\n\nТы можешь вернуться позже,\nкогда появится отклик.\nСистема сохранит твой прогресс.",
-            "Желание разобраться глубже —\nпро осознанность.\nТы хочешь понимать логику,\nа не просто «верить».\n\nЭто зрелый подход.\nМожно начать с короткого обзора\nбез обязательств.",
+            "Желание разобраться глубже —\nпро стремление к ясности.\nТы хочешь понимать логику,\nа не просто «верить».\n\nМожно начать с короткого обзора\nбез обязательств.",
             "Диалог помогает увидеть картину шире.\nТы ценишь разные точки зрения\nи не хочешь принимать решения в вакууме.\n\nЭто уважение к себе и процессу.\nЕсть пространство для общения и вопросов.",
             "Фиксация — это способ\nсохранить ясность.\nКогда мысли оформлены,\nих легче превратить в шаги.\n\nЭто про внутренний порядок.\nМожно сохранить личную заметку внутри системы.",
             "Наметить шаги —\nэто перевод мыслей в действие.\nТы хочешь, чтобы появившаяся энергия\nстала движением.\n\nМы можем помочь разбить путь на этапы\nи сделать его понятным.",
